@@ -1,0 +1,27 @@
+{
+  "userId": 2,
+  "careerField": "business",
+  "skillLevel": "beginner",
+  "performanceScore": 0.0,
+  "additionalDetails": {
+    "learningMotivation": "personal_interest",
+    "professionalStatus": "unemployed",
+    "skillDevelopmentGoal": "new_career",
+    "timeAvailability": "more_than_15",
+    "learningChallenges": "complex_concepts",
+    "learningExperience": "intermediate",
+    "techComfortLevel": "beginner"
+  },
+  "learningPath": [
+    {
+      "skill": "communication_video_tutorial",
+      "modules": [],
+      "resources": []
+    },
+    {
+      "skill": "basic_data_tools_video_tutorial",
+      "modules": [],
+      "resources": []
+    }
+  ]
+}

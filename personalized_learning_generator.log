@@ -1,0 +1,46 @@
+2024-12-02 10:11:25,143 - ERROR - Error generating learning paths: [Errno 2] No such file or directory: 'paste-2.txt'
+2024-12-02 10:43:00,046 - INFO - ====== WebDriver manager ======
+2024-12-02 10:43:01,248 - INFO - Get LATEST chromedriver version for google-chrome
+2024-12-02 10:43:01,339 - INFO - Get LATEST chromedriver version for google-chrome
+2024-12-02 10:43:01,382 - INFO - There is no [win64] chromedriver "131.0.6778.85" for browser google-chrome "131.0.6778" in cache
+2024-12-02 10:43:01,383 - INFO - Get LATEST chromedriver version for google-chrome
+2024-12-02 10:43:01,531 - INFO - WebDriver version 131.0.6778.85 selected
+2024-12-02 10:43:01,533 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/131.0.6778.85/win32/chromedriver-win32.zip
+2024-12-02 10:43:01,534 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/131.0.6778.85/win32/chromedriver-win32.zip
+2024-12-02 10:43:01,679 - INFO - Driver downloading response is 200
+2024-12-02 10:43:02,643 - INFO - Get LATEST chromedriver version for google-chrome
+2024-12-02 10:43:03,711 - INFO - Driver has been saved in cache [C:\Users\rajas\.wdm\drivers\chromedriver\win64\131.0.6778.85]
+2024-12-02 10:43:11,944 - INFO - ====== WebDriver manager ======
+2024-12-02 10:43:13,075 - INFO - Get LATEST chromedriver version for google-chrome
+2024-12-02 10:43:13,142 - INFO - Get LATEST chromedriver version for google-chrome
+2024-12-02 10:43:13,201 - INFO - Driver [C:\Users\rajas\.wdm\drivers\chromedriver\win64\131.0.6778.85\chromedriver-win32/chromedriver.exe] found in cache
+2024-12-02 10:43:23,810 - INFO - ====== WebDriver manager ======
+2024-12-02 10:43:24,695 - INFO - Get LATEST chromedriver version for google-chrome
+2024-12-02 10:43:24,771 - INFO - Get LATEST chromedriver version for google-chrome
+2024-12-02 10:43:24,831 - INFO - Driver [C:\Users\rajas\.wdm\drivers\chromedriver\win64\131.0.6778.85\chromedriver-win32/chromedriver.exe] found in cache
+2024-12-02 10:43:31,543 - INFO - ====== WebDriver manager ======
+2024-12-02 10:43:32,473 - INFO - Get LATEST chromedriver version for google-chrome
+2024-12-02 10:43:32,555 - INFO - Get LATEST chromedriver version for google-chrome
+2024-12-02 10:43:32,599 - INFO - Driver [C:\Users\rajas\.wdm\drivers\chromedriver\win64\131.0.6778.85\chromedriver-win32/chromedriver.exe] found in cache
+2024-12-02 10:43:42,378 - INFO - Saved 2 learning paths
+2024-12-02 10:44:28,057 - INFO - ====== WebDriver manager ======
+2024-12-02 10:44:29,091 - INFO - Get LATEST chromedriver version for google-chrome
+2024-12-02 10:44:29,139 - INFO - Get LATEST chromedriver version for google-chrome
+2024-12-02 10:44:29,214 - INFO - Driver [C:\Users\rajas\.wdm\drivers\chromedriver\win64\131.0.6778.85\chromedriver-win32/chromedriver.exe] found in cache
+2024-12-02 10:44:36,003 - INFO - ====== WebDriver manager ======
+2024-12-02 10:44:37,014 - INFO - Get LATEST chromedriver version for google-chrome
+2024-12-02 10:44:37,074 - INFO - Get LATEST chromedriver version for google-chrome
+2024-12-02 10:44:37,150 - INFO - Driver [C:\Users\rajas\.wdm\drivers\chromedriver\win64\131.0.6778.85\chromedriver-win32/chromedriver.exe] found in cache
+2024-12-02 10:44:47,500 - INFO - ====== WebDriver manager ======
+2024-12-02 10:44:48,468 - INFO - Get LATEST chromedriver version for google-chrome
+2024-12-02 10:44:48,536 - INFO - Get LATEST chromedriver version for google-chrome
+2024-12-02 10:44:48,606 - INFO - Driver [C:\Users\rajas\.wdm\drivers\chromedriver\win64\131.0.6778.85\chromedriver-win32/chromedriver.exe] found in cache
+2024-12-02 10:44:55,856 - INFO - ====== WebDriver manager ======
+2024-12-02 10:44:56,707 - INFO - Get LATEST chromedriver version for google-chrome
+2024-12-02 10:44:56,771 - INFO - Get LATEST chromedriver version for google-chrome
+2024-12-02 10:45:00,879 - INFO - Driver [C:\Users\rajas\.wdm\drivers\chromedriver\win64\131.0.6778.85\chromedriver-win32/chromedriver.exe] found in cache
+2024-12-02 10:45:07,863 - INFO - Saved 2 learning paths
+2024-12-02 11:00:24,823 - INFO - Starting Personalized Learning Platform API
+2024-12-02 11:00:54,407 - INFO - Shutting down Personalized Learning Platform API
+2024-12-02 11:00:55,200 - INFO - Starting Personalized Learning Platform API
+2024-12-02 11:14:13,191 - INFO - Shutting down Personalized Learning Platform API

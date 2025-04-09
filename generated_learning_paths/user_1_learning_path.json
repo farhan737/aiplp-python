@@ -1,0 +1,27 @@
+{
+  "userId": 1,
+  "careerField": "business",
+  "skillLevel": "intermediate",
+  "performanceScore": 70.0,
+  "additionalDetails": {
+    "learningMotivation": "hobby",
+    "professionalStatus": "unemployed",
+    "skillDevelopmentGoal": "new_career",
+    "timeAvailability": "less_than_5",
+    "learningChallenges": "time",
+    "learningExperience": "expert",
+    "techComfortLevel": "somewhat"
+  },
+  "learningPath": [
+    {
+      "skill": "data_analysis",
+      "modules": [],
+      "resources": []
+    },
+    {
+      "skill": "business_strategy",
+      "modules": [],
+      "resources": []
+    }
+  ]
+}

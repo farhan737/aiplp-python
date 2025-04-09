@@ -1,0 +1,1408 @@
+2024-12-25 20:04:03,260 - learning_assessment_server - INFO - Starting course suggestion for user_id: 1
+2024-12-25 20:04:03,260 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-12-25 20:04:03,263 - httpx - DEBUG - load_verify_locations cafile='C:\\Users\\rajas\\Documents\\MyProjects\\AIPLP Test\\venv\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-12-25 20:04:03,556 - httpcore.connection - DEBUG - connect_tcp.started host='localhost' port=8084 local_address=None timeout=5.0 socket_options=None
+2024-12-25 20:04:03,587 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x000000000567FCB0>
+2024-12-25 20:04:03,587 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'GET']>
+2024-12-25 20:04:03,610 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-12-25 20:04:03,610 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'GET']>
+2024-12-25 20:04:03,610 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-12-25 20:04:03,613 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'GET']>
+2024-12-25 20:04:03,614 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'X-Powered-By', b'Express'), (b'Access-Control-Allow-Origin', b'*'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'716'), (b'ETag', b'W/"2cc-lsE1noJku9Y2tgmdt/I1htIbGHs"'), (b'Date', b'Wed, 25 Dec 2024 14:34:03 GMT'), (b'Connection', b'keep-alive'), (b'Keep-Alive', b'timeout=5')])
+2024-12-25 20:04:03,615 - httpx - INFO - HTTP Request: GET http://localhost:8084/api/data/survey-responses "HTTP/1.1 200 OK"
+2024-12-25 20:04:03,615 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'GET']>
+2024-12-25 20:04:03,615 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-12-25 20:04:03,615 - httpcore.http11 - DEBUG - response_closed.started
+2024-12-25 20:04:03,615 - httpcore.http11 - DEBUG - response_closed.complete
+2024-12-25 20:04:03,618 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'GET']>
+2024-12-25 20:04:03,619 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-12-25 20:04:03,619 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'GET']>
+2024-12-25 20:04:03,619 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-12-25 20:04:03,621 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'GET']>
+2024-12-25 20:04:03,638 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'X-Powered-By', b'Express'), (b'Access-Control-Allow-Origin', b'*'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'3440'), (b'ETag', b'W/"d70-s/XXMCDpDCY88JFrdh8jrW4S7wU"'), (b'Date', b'Wed, 25 Dec 2024 14:34:03 GMT'), (b'Connection', b'keep-alive'), (b'Keep-Alive', b'timeout=5')])
+2024-12-25 20:04:03,639 - httpx - INFO - HTTP Request: GET http://localhost:8084/api/data/quiz-answers "HTTP/1.1 200 OK"
+2024-12-25 20:04:03,639 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'GET']>
+2024-12-25 20:04:03,639 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-12-25 20:04:03,639 - httpcore.http11 - DEBUG - response_closed.started
+2024-12-25 20:04:03,639 - httpcore.http11 - DEBUG - response_closed.complete
+2024-12-25 20:04:03,645 - httpcore.connection - DEBUG - close.started
+2024-12-25 20:04:03,645 - httpcore.connection - DEBUG - close.complete
+2024-12-25 20:04:03,648 - learning_assessment_server - ERROR - Error fetching user data: table user_data has no column named quiz_performance_summary
+2024-12-25 20:04:03,648 - learning_assessment_server - ERROR - Error in fetch_user_data: 500: table user_data has no column named quiz_performance_summary
+2024-12-25 20:04:03,648 - learning_assessment_server - ERROR - Full error details: HTTPException
+2024-12-25 20:06:47,264 - learning_assessment_server - INFO - Starting course suggestion for user_id: 1
+2024-12-25 20:06:47,264 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-12-25 20:06:47,264 - httpx - DEBUG - load_verify_locations cafile='C:\\Users\\rajas\\Documents\\MyProjects\\AIPLP Test\\venv\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-12-25 20:06:47,505 - httpcore.connection - DEBUG - connect_tcp.started host='localhost' port=8084 local_address=None timeout=5.0 socket_options=None
+2024-12-25 20:06:47,521 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x000000000567FD10>
+2024-12-25 20:06:47,521 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'GET']>
+2024-12-25 20:06:47,522 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-12-25 20:06:47,523 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'GET']>
+2024-12-25 20:06:47,523 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-12-25 20:06:47,523 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'GET']>
+2024-12-25 20:06:47,546 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'X-Powered-By', b'Express'), (b'Access-Control-Allow-Origin', b'*'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'716'), (b'ETag', b'W/"2cc-lsE1noJku9Y2tgmdt/I1htIbGHs"'), (b'Date', b'Wed, 25 Dec 2024 14:36:47 GMT'), (b'Connection', b'keep-alive'), (b'Keep-Alive', b'timeout=5')])
+2024-12-25 20:06:47,546 - httpx - INFO - HTTP Request: GET http://localhost:8084/api/data/survey-responses "HTTP/1.1 200 OK"
+2024-12-25 20:06:47,546 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'GET']>
+2024-12-25 20:06:47,546 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-12-25 20:06:47,550 - httpcore.http11 - DEBUG - response_closed.started
+2024-12-25 20:06:47,550 - httpcore.http11 - DEBUG - response_closed.complete
+2024-12-25 20:06:47,550 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'GET']>
+2024-12-25 20:06:47,553 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-12-25 20:06:47,554 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'GET']>
+2024-12-25 20:06:47,555 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-12-25 20:06:47,555 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'GET']>
+2024-12-25 20:06:47,555 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'X-Powered-By', b'Express'), (b'Access-Control-Allow-Origin', b'*'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'3440'), (b'ETag', b'W/"d70-s/XXMCDpDCY88JFrdh8jrW4S7wU"'), (b'Date', b'Wed, 25 Dec 2024 14:36:47 GMT'), (b'Connection', b'keep-alive'), (b'Keep-Alive', b'timeout=5')])
+2024-12-25 20:06:47,555 - httpx - INFO - HTTP Request: GET http://localhost:8084/api/data/quiz-answers "HTTP/1.1 200 OK"
+2024-12-25 20:06:47,555 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'GET']>
+2024-12-25 20:06:47,555 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-12-25 20:06:47,559 - httpcore.http11 - DEBUG - response_closed.started
+2024-12-25 20:06:47,560 - httpcore.http11 - DEBUG - response_closed.complete
+2024-12-25 20:06:47,561 - httpcore.connection - DEBUG - close.started
+2024-12-25 20:06:47,562 - httpcore.connection - DEBUG - close.complete
+2024-12-25 20:06:47,562 - learning_assessment_server - ERROR - Error fetching user data: table user_data has no column named quiz_performance_summary
+2024-12-25 20:06:47,562 - learning_assessment_server - ERROR - Error in fetch_user_data: 500: table user_data has no column named quiz_performance_summary
+2024-12-25 20:06:47,562 - learning_assessment_server - ERROR - Full error details: HTTPException
+2024-12-25 20:06:49,975 - learning_assessment_server - INFO - Starting course suggestion for user_id: 1
+2024-12-25 20:06:49,977 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-12-25 20:06:49,978 - httpx - DEBUG - load_verify_locations cafile='C:\\Users\\rajas\\Documents\\MyProjects\\AIPLP Test\\venv\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-12-25 20:06:50,275 - httpcore.connection - DEBUG - connect_tcp.started host='localhost' port=8084 local_address=None timeout=5.0 socket_options=None
+2024-12-25 20:06:50,281 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x00000000056BE420>
+2024-12-25 20:06:50,303 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'GET']>
+2024-12-25 20:06:50,303 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-12-25 20:06:50,303 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'GET']>
+2024-12-25 20:06:50,303 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-12-25 20:06:50,303 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'GET']>
+2024-12-25 20:06:50,307 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'X-Powered-By', b'Express'), (b'Access-Control-Allow-Origin', b'*'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'716'), (b'ETag', b'W/"2cc-lsE1noJku9Y2tgmdt/I1htIbGHs"'), (b'Date', b'Wed, 25 Dec 2024 14:36:50 GMT'), (b'Connection', b'keep-alive'), (b'Keep-Alive', b'timeout=5')])
+2024-12-25 20:06:50,307 - httpx - INFO - HTTP Request: GET http://localhost:8084/api/data/survey-responses "HTTP/1.1 200 OK"
+2024-12-25 20:06:50,307 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'GET']>
+2024-12-25 20:06:50,307 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-12-25 20:06:50,307 - httpcore.http11 - DEBUG - response_closed.started
+2024-12-25 20:06:50,307 - httpcore.http11 - DEBUG - response_closed.complete
+2024-12-25 20:06:50,307 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'GET']>
+2024-12-25 20:06:50,307 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-12-25 20:06:50,307 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'GET']>
+2024-12-25 20:06:50,307 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-12-25 20:06:50,313 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'GET']>
+2024-12-25 20:06:50,315 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'X-Powered-By', b'Express'), (b'Access-Control-Allow-Origin', b'*'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'3440'), (b'ETag', b'W/"d70-s/XXMCDpDCY88JFrdh8jrW4S7wU"'), (b'Date', b'Wed, 25 Dec 2024 14:36:50 GMT'), (b'Connection', b'keep-alive'), (b'Keep-Alive', b'timeout=5')])
+2024-12-25 20:06:50,315 - httpx - INFO - HTTP Request: GET http://localhost:8084/api/data/quiz-answers "HTTP/1.1 200 OK"
+2024-12-25 20:06:50,315 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'GET']>
+2024-12-25 20:06:50,315 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-12-25 20:06:50,315 - httpcore.http11 - DEBUG - response_closed.started
+2024-12-25 20:06:50,315 - httpcore.http11 - DEBUG - response_closed.complete
+2024-12-25 20:06:50,315 - httpcore.connection - DEBUG - close.started
+2024-12-25 20:06:50,315 - httpcore.connection - DEBUG - close.complete
+2024-12-25 20:06:50,315 - learning_assessment_server - ERROR - Error fetching user data: table user_data has no column named quiz_performance_summary
+2024-12-25 20:06:50,315 - learning_assessment_server - ERROR - Error in fetch_user_data: 500: table user_data has no column named quiz_performance_summary
+2024-12-25 20:06:50,323 - learning_assessment_server - ERROR - Full error details: HTTPException
+2024-12-25 20:07:24,546 - learning_assessment_server - INFO - Starting course suggestion for user_id: 1
+2024-12-25 20:07:24,546 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-12-25 20:07:24,546 - httpx - DEBUG - load_verify_locations cafile='C:\\Users\\rajas\\Documents\\MyProjects\\AIPLP Test\\venv\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-12-25 20:07:24,764 - httpcore.connection - DEBUG - connect_tcp.started host='localhost' port=8084 local_address=None timeout=5.0 socket_options=None
+2024-12-25 20:07:24,773 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x0000000005683C50>
+2024-12-25 20:07:24,773 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'GET']>
+2024-12-25 20:07:24,775 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-12-25 20:07:24,776 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'GET']>
+2024-12-25 20:07:24,776 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-12-25 20:07:24,776 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'GET']>
+2024-12-25 20:07:24,777 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'X-Powered-By', b'Express'), (b'Access-Control-Allow-Origin', b'*'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'716'), (b'ETag', b'W/"2cc-lsE1noJku9Y2tgmdt/I1htIbGHs"'), (b'Date', b'Wed, 25 Dec 2024 14:37:24 GMT'), (b'Connection', b'keep-alive'), (b'Keep-Alive', b'timeout=5')])
+2024-12-25 20:07:24,779 - httpx - INFO - HTTP Request: GET http://localhost:8084/api/data/survey-responses "HTTP/1.1 200 OK"
+2024-12-25 20:07:24,779 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'GET']>
+2024-12-25 20:07:24,779 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-12-25 20:07:24,779 - httpcore.http11 - DEBUG - response_closed.started
+2024-12-25 20:07:24,782 - httpcore.http11 - DEBUG - response_closed.complete
+2024-12-25 20:07:24,782 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'GET']>
+2024-12-25 20:07:24,782 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-12-25 20:07:24,782 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'GET']>
+2024-12-25 20:07:24,782 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-12-25 20:07:24,782 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'GET']>
+2024-12-25 20:07:24,806 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'X-Powered-By', b'Express'), (b'Access-Control-Allow-Origin', b'*'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'3440'), (b'ETag', b'W/"d70-s/XXMCDpDCY88JFrdh8jrW4S7wU"'), (b'Date', b'Wed, 25 Dec 2024 14:37:24 GMT'), (b'Connection', b'keep-alive'), (b'Keep-Alive', b'timeout=5')])
+2024-12-25 20:07:24,806 - httpx - INFO - HTTP Request: GET http://localhost:8084/api/data/quiz-answers "HTTP/1.1 200 OK"
+2024-12-25 20:07:24,806 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'GET']>
+2024-12-25 20:07:24,806 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-12-25 20:07:24,806 - httpcore.http11 - DEBUG - response_closed.started
+2024-12-25 20:07:24,806 - httpcore.http11 - DEBUG - response_closed.complete
+2024-12-25 20:07:24,806 - httpcore.connection - DEBUG - close.started
+2024-12-25 20:07:24,806 - httpcore.connection - DEBUG - close.complete
+2024-12-25 20:07:24,806 - learning_assessment_server - ERROR - Error fetching user data: no such table: user_data
+2024-12-25 20:07:24,806 - learning_assessment_server - ERROR - Error in fetch_user_data: 500: no such table: user_data
+2024-12-25 20:07:24,813 - learning_assessment_server - ERROR - Full error details: HTTPException
+2024-12-25 20:10:41,163 - learning_assessment_server - INFO - Running startup initialization...
+2024-12-25 20:10:41,163 - learning_assessment_server - INFO - Initializing database...
+2024-12-25 20:10:41,198 - learning_assessment_server - INFO - Database initialization completed successfully
+2024-12-25 20:10:41,199 - learning_assessment_server - INFO - Database schema verified successfully
+2024-12-25 20:10:42,786 - learning_assessment_server - INFO - Starting course suggestion for user_id: 1
+2024-12-25 20:10:42,786 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-12-25 20:10:42,786 - httpx - DEBUG - load_verify_locations cafile='C:\\Users\\rajas\\Documents\\MyProjects\\AIPLP Test\\venv\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-12-25 20:10:43,006 - httpcore.connection - DEBUG - connect_tcp.started host='localhost' port=8084 local_address=None timeout=5.0 socket_options=None
+2024-12-25 20:10:43,019 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x0000000005683B90>
+2024-12-25 20:10:43,036 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'GET']>
+2024-12-25 20:10:43,036 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-12-25 20:10:43,036 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'GET']>
+2024-12-25 20:10:43,036 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-12-25 20:10:43,036 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'GET']>
+2024-12-25 20:10:43,036 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'X-Powered-By', b'Express'), (b'Access-Control-Allow-Origin', b'*'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'716'), (b'ETag', b'W/"2cc-lsE1noJku9Y2tgmdt/I1htIbGHs"'), (b'Date', b'Wed, 25 Dec 2024 14:40:43 GMT'), (b'Connection', b'keep-alive'), (b'Keep-Alive', b'timeout=5')])
+2024-12-25 20:10:43,036 - httpx - INFO - HTTP Request: GET http://localhost:8084/api/data/survey-responses "HTTP/1.1 200 OK"
+2024-12-25 20:10:43,036 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'GET']>
+2024-12-25 20:10:43,036 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-12-25 20:10:43,036 - httpcore.http11 - DEBUG - response_closed.started
+2024-12-25 20:10:43,036 - httpcore.http11 - DEBUG - response_closed.complete
+2024-12-25 20:10:43,036 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'GET']>
+2024-12-25 20:10:43,036 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-12-25 20:10:43,036 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'GET']>
+2024-12-25 20:10:43,036 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-12-25 20:10:43,036 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'GET']>
+2024-12-25 20:10:43,043 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'X-Powered-By', b'Express'), (b'Access-Control-Allow-Origin', b'*'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'3440'), (b'ETag', b'W/"d70-s/XXMCDpDCY88JFrdh8jrW4S7wU"'), (b'Date', b'Wed, 25 Dec 2024 14:40:43 GMT'), (b'Connection', b'keep-alive'), (b'Keep-Alive', b'timeout=5')])
+2024-12-25 20:10:43,044 - httpx - INFO - HTTP Request: GET http://localhost:8084/api/data/quiz-answers "HTTP/1.1 200 OK"
+2024-12-25 20:10:43,044 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'GET']>
+2024-12-25 20:10:43,044 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-12-25 20:10:43,044 - httpcore.http11 - DEBUG - response_closed.started
+2024-12-25 20:10:43,044 - httpcore.http11 - DEBUG - response_closed.complete
+2024-12-25 20:10:43,047 - httpcore.connection - DEBUG - close.started
+2024-12-25 20:10:43,052 - httpcore.connection - DEBUG - close.complete
+2024-12-25 20:10:43,053 - learning_assessment_server - INFO - Successfully fetched user data
+2024-12-25 20:10:43,053 - learning_assessment_server - DEBUG - Quiz Analysis: {'topic_scores': {'general': 0.0, 'problem_solving': 0.0, 'learning_style': 0.0, 'logical_reasoning': 50.0, 'mathematical': 100.0, 'motivation': 100.0}, 'overall_score': 40.0, 'weak_areas': ['general', 'problem_solving', 'learning_style', 'logical_reasoning'], 'strengths': ['mathematical', 'motivation'], 'total_questions_answered': 10, 'question_distribution': {'general': 1, 'problem_solving': 2, 'learning_style': 2, 'logical_reasoning': 2, 'mathematical': 2, 'motivation': 1}}
+2024-12-25 20:10:43,061 - httpcore.connection - DEBUG - connect_tcp.started host='127.0.0.1' port=11434 local_address=None timeout=None socket_options=None
+2024-12-25 20:10:43,066 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000000003D244A0>
+2024-12-25 20:10:43,067 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-12-25 20:10:43,068 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-12-25 20:10:43,069 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-12-25 20:10:43,069 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-12-25 20:10:43,069 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-12-25 20:10:43,083 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 404, b'Not Found', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Wed, 25 Dec 2024 14:40:43 GMT'), (b'Content-Length', b'62')])
+2024-12-25 20:10:43,084 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 404 Not Found"
+2024-12-25 20:10:43,084 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-12-25 20:10:43,085 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-12-25 20:10:43,085 - httpcore.http11 - DEBUG - response_closed.started
+2024-12-25 20:10:43,086 - httpcore.http11 - DEBUG - response_closed.complete
+2024-12-25 20:10:43,086 - learning_assessment_server - ERROR - Error generating recommendations: model "llama3.1" not found, try pulling it first
+2024-12-25 20:10:43,087 - learning_assessment_server - ERROR - Error in generate_course_recommendations: 500: Failed to generate recommendations
+2024-12-25 20:12:21,923 - learning_assessment_server - INFO - Running startup initialization...
+2024-12-25 20:12:21,923 - learning_assessment_server - INFO - Initializing database...
+2024-12-25 20:12:21,923 - learning_assessment_server - INFO - Database initialization completed successfully
+2024-12-25 20:12:21,923 - learning_assessment_server - INFO - Database schema verified successfully
+2024-12-25 20:12:31,513 - learning_assessment_server - INFO - Starting course suggestion for user_id: 1
+2024-12-25 20:12:31,513 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-12-25 20:12:31,513 - httpx - DEBUG - load_verify_locations cafile='C:\\Users\\rajas\\Documents\\MyProjects\\AIPLP Test\\venv\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-12-25 20:12:31,809 - httpcore.connection - DEBUG - connect_tcp.started host='localhost' port=8084 local_address=None timeout=5.0 socket_options=None
+2024-12-25 20:12:31,812 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x000000000567AFC0>
+2024-12-25 20:12:31,812 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'GET']>
+2024-12-25 20:12:31,812 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-12-25 20:12:31,812 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'GET']>
+2024-12-25 20:12:31,812 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-12-25 20:12:31,812 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'GET']>
+2024-12-25 20:12:31,812 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'X-Powered-By', b'Express'), (b'Access-Control-Allow-Origin', b'*'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'716'), (b'ETag', b'W/"2cc-lsE1noJku9Y2tgmdt/I1htIbGHs"'), (b'Date', b'Wed, 25 Dec 2024 14:42:31 GMT'), (b'Connection', b'keep-alive'), (b'Keep-Alive', b'timeout=5')])
+2024-12-25 20:12:31,812 - httpx - INFO - HTTP Request: GET http://localhost:8084/api/data/survey-responses "HTTP/1.1 200 OK"
+2024-12-25 20:12:31,812 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'GET']>
+2024-12-25 20:12:31,812 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-12-25 20:12:31,812 - httpcore.http11 - DEBUG - response_closed.started
+2024-12-25 20:12:31,812 - httpcore.http11 - DEBUG - response_closed.complete
+2024-12-25 20:12:31,812 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'GET']>
+2024-12-25 20:12:31,812 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-12-25 20:12:31,812 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'GET']>
+2024-12-25 20:12:31,825 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-12-25 20:12:31,825 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'GET']>
+2024-12-25 20:12:31,827 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'X-Powered-By', b'Express'), (b'Access-Control-Allow-Origin', b'*'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'3440'), (b'ETag', b'W/"d70-s/XXMCDpDCY88JFrdh8jrW4S7wU"'), (b'Date', b'Wed, 25 Dec 2024 14:42:31 GMT'), (b'Connection', b'keep-alive'), (b'Keep-Alive', b'timeout=5')])
+2024-12-25 20:12:31,827 - httpx - INFO - HTTP Request: GET http://localhost:8084/api/data/quiz-answers "HTTP/1.1 200 OK"
+2024-12-25 20:12:31,829 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'GET']>
+2024-12-25 20:12:31,829 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-12-25 20:12:31,831 - httpcore.http11 - DEBUG - response_closed.started
+2024-12-25 20:12:31,831 - httpcore.http11 - DEBUG - response_closed.complete
+2024-12-25 20:12:31,839 - httpcore.connection - DEBUG - close.started
+2024-12-25 20:12:31,840 - httpcore.connection - DEBUG - close.complete
+2024-12-25 20:12:31,840 - learning_assessment_server - INFO - Successfully fetched user data
+2024-12-25 20:12:31,840 - learning_assessment_server - DEBUG - Quiz Analysis: {'topic_scores': {'general': 0.0, 'problem_solving': 0.0, 'learning_style': 0.0, 'logical_reasoning': 50.0, 'mathematical': 100.0, 'motivation': 100.0}, 'overall_score': 40.0, 'weak_areas': ['general', 'problem_solving', 'learning_style', 'logical_reasoning'], 'strengths': ['mathematical', 'motivation'], 'total_questions_answered': 10, 'question_distribution': {'general': 1, 'problem_solving': 2, 'learning_style': 2, 'logical_reasoning': 2, 'mathematical': 2, 'motivation': 1}}
+2024-12-25 20:12:31,847 - httpcore.connection - DEBUG - connect_tcp.started host='127.0.0.1' port=11434 local_address=None timeout=None socket_options=None
+2024-12-25 20:12:31,850 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000000056BD8B0>
+2024-12-25 20:12:31,854 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-12-25 20:12:31,854 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-12-25 20:12:31,855 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-12-25 20:12:31,855 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-12-25 20:12:31,856 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-12-25 20:13:25,785 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Wed, 25 Dec 2024 14:43:25 GMT'), (b'Content-Length', b'1510')])
+2024-12-25 20:13:25,813 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-12-25 20:13:25,813 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-12-25 20:13:25,813 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-12-25 20:13:25,825 - httpcore.http11 - DEBUG - response_closed.started
+2024-12-25 20:13:25,825 - httpcore.http11 - DEBUG - response_closed.complete
+2024-12-25 20:13:25,833 - learning_assessment_server - INFO - Successfully generated recommendations
+2024-12-25 20:13:25,833 - learning_assessment_server - DEBUG - Recommendations: {'recommendations': [{'id': None, 'title': 'Business Fundamentals', 'description': 'A comprehensive course covering the basics of business, including accounting, marketing, and finance.', 'confidence_score': 0.8}, {'id': None, 'title': 'Entrepreneurship 101', 'description': 'A course designed specifically for entrepreneurs, covering topics such as business planning, market analysis, and team management.', 'confidence_score': 0.9}, {'id': None, 'title': 'Academic Writing for Business Students', 'description': 'A course focused on teaching academic writing skills tailored to business students, including how to write effectively in various formats (e.g., essays, reports).', 'confidence_score': 0.7}, {'id': None, 'title': 'Logical Reasoning for Business and Finance', 'description': 'A course designed to improve logical reasoning skills through exercises and case studies related to business and finance.', 'confidence_score': 0.9}], 'user_id': 1234}
+2024-12-25 20:13:25,859 - learning_assessment_server - INFO - Successfully stored recommendations
+2024-12-25 20:13:25,859 - learning_assessment_server - INFO - Successfully completed course suggestion process
+2024-12-25 20:18:33,363 - httpcore.connection - DEBUG - close.started
+2024-12-25 20:18:33,365 - httpcore.connection - DEBUG - close.complete
+2024-12-25 20:18:33,367 - httpcore.connection - DEBUG - connect_tcp.started host='127.0.0.1' port=11434 local_address=None timeout=None socket_options=None
+2024-12-25 20:18:33,367 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000000056BFC20>
+2024-12-25 20:18:33,369 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-12-25 20:18:33,370 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-12-25 20:18:33,370 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-12-25 20:18:33,371 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-12-25 20:18:33,372 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-12-25 20:18:33,399 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 404, b'Not Found', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Wed, 25 Dec 2024 14:48:33 GMT'), (b'Content-Length', b'62')])
+2024-12-25 20:18:33,401 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 404 Not Found"
+2024-12-25 20:18:33,401 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-12-25 20:18:33,402 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-12-25 20:18:33,403 - httpcore.http11 - DEBUG - response_closed.started
+2024-12-25 20:18:33,403 - httpcore.http11 - DEBUG - response_closed.complete
+2024-12-25 20:18:33,407 - learning_assessment_server - ERROR - Error generating learning path: model "llama3.1" not found, try pulling it first
+2024-12-25 20:18:33,407 - learning_assessment_server - ERROR - Error in get_learning_path: 500: Failed to generate learning path
+2024-12-25 20:19:58,152 - learning_assessment_server - INFO - Running startup initialization...
+2024-12-25 20:19:58,152 - learning_assessment_server - INFO - Initializing database...
+2024-12-25 20:19:58,152 - learning_assessment_server - INFO - Database initialization completed successfully
+2024-12-25 20:19:58,152 - learning_assessment_server - INFO - Database schema verified successfully
+2024-12-25 20:20:10,713 - learning_assessment_server - INFO - Running startup initialization...
+2024-12-25 20:20:10,713 - learning_assessment_server - INFO - Initializing database...
+2024-12-25 20:20:10,713 - learning_assessment_server - INFO - Database initialization completed successfully
+2024-12-25 20:20:10,713 - learning_assessment_server - INFO - Database schema verified successfully
+2024-12-25 20:20:12,576 - httpcore.connection - DEBUG - connect_tcp.started host='127.0.0.1' port=11434 local_address=None timeout=None socket_options=None
+2024-12-25 20:20:12,579 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000000056BCC50>
+2024-12-25 20:20:12,582 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-12-25 20:20:12,582 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-12-25 20:20:12,583 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-12-25 20:20:12,583 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-12-25 20:20:12,583 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-12-25 20:22:13,174 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Wed, 25 Dec 2024 14:52:13 GMT'), (b'Transfer-Encoding', b'chunked')])
+2024-12-25 20:22:13,186 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-12-25 20:22:13,186 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-12-25 20:22:13,186 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-12-25 20:22:13,194 - httpcore.http11 - DEBUG - response_closed.started
+2024-12-25 20:22:13,195 - httpcore.http11 - DEBUG - response_closed.complete
+2024-12-25 20:35:08,803 - httpcore.connection - DEBUG - close.started
+2024-12-25 20:35:08,803 - httpcore.connection - DEBUG - close.complete
+2024-12-25 20:35:08,808 - httpcore.connection - DEBUG - connect_tcp.started host='127.0.0.1' port=11434 local_address=None timeout=None socket_options=None
+2024-12-25 20:35:08,809 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000000056BF9E0>
+2024-12-25 20:35:08,810 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-12-25 20:35:08,811 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-12-25 20:35:08,811 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-12-25 20:35:08,811 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-12-25 20:35:08,812 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-12-25 20:37:25,970 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Wed, 25 Dec 2024 15:07:25 GMT'), (b'Transfer-Encoding', b'chunked')])
+2024-12-25 20:37:25,995 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-12-25 20:37:25,995 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-12-25 20:37:25,995 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-12-25 20:37:25,995 - httpcore.http11 - DEBUG - response_closed.started
+2024-12-25 20:37:25,995 - httpcore.http11 - DEBUG - response_closed.complete
+2024-12-25 21:03:18,571 - learning_assessment_server - INFO - Running startup initialization...
+2024-12-25 21:03:18,571 - learning_assessment_server - INFO - Initializing database...
+2024-12-25 21:03:18,571 - learning_assessment_server - INFO - Database initialization completed successfully
+2024-12-25 21:03:18,583 - learning_assessment_server - INFO - Database schema verified successfully
+2024-12-26 10:00:34,759 - __main__ - INFO - Initializing database...
+2024-12-26 10:00:34,760 - __main__ - INFO - Initializing database...
+2024-12-26 10:00:34,769 - __main__ - INFO - Database initialization completed successfully
+2024-12-26 10:00:34,770 - __main__ - INFO - Database schema verified successfully
+2024-12-26 10:00:34,771 - __main__ - INFO - Starting FastAPI server...
+2024-12-26 10:00:46,089 - learning_assessment_server - INFO - Running startup initialization...
+2024-12-26 10:00:46,089 - learning_assessment_server - INFO - Initializing database...
+2024-12-26 10:00:46,089 - learning_assessment_server - INFO - Database initialization completed successfully
+2024-12-26 10:00:46,089 - learning_assessment_server - INFO - Database schema verified successfully
+2024-12-26 10:00:58,595 - learning_assessment_server - INFO - Starting course suggestion for user_id: 1
+2024-12-26 10:00:58,596 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-12-26 10:00:58,597 - httpx - DEBUG - load_verify_locations cafile='C:\\Users\\rajas\\Documents\\MyProjects\\AIPLP Test\\venv\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-12-26 10:00:59,225 - httpcore.connection - DEBUG - connect_tcp.started host='localhost' port=8084 local_address=None timeout=5.0 socket_options=None
+2024-12-26 10:00:59,227 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x00000000056D97F0>
+2024-12-26 10:00:59,227 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'GET']>
+2024-12-26 10:00:59,243 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-12-26 10:00:59,244 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'GET']>
+2024-12-26 10:00:59,244 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-12-26 10:00:59,245 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'GET']>
+2024-12-26 10:00:59,299 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'X-Powered-By', b'Express'), (b'Access-Control-Allow-Origin', b'*'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'716'), (b'ETag', b'W/"2cc-lsE1noJku9Y2tgmdt/I1htIbGHs"'), (b'Date', b'Thu, 26 Dec 2024 04:30:59 GMT'), (b'Connection', b'keep-alive'), (b'Keep-Alive', b'timeout=5')])
+2024-12-26 10:00:59,303 - httpx - INFO - HTTP Request: GET http://localhost:8084/api/data/survey-responses "HTTP/1.1 200 OK"
+2024-12-26 10:00:59,303 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'GET']>
+2024-12-26 10:00:59,303 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-12-26 10:00:59,303 - httpcore.http11 - DEBUG - response_closed.started
+2024-12-26 10:00:59,303 - httpcore.http11 - DEBUG - response_closed.complete
+2024-12-26 10:00:59,303 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'GET']>
+2024-12-26 10:00:59,309 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-12-26 10:00:59,310 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'GET']>
+2024-12-26 10:00:59,311 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-12-26 10:00:59,311 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'GET']>
+2024-12-26 10:00:59,313 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'X-Powered-By', b'Express'), (b'Access-Control-Allow-Origin', b'*'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'3440'), (b'ETag', b'W/"d70-s/XXMCDpDCY88JFrdh8jrW4S7wU"'), (b'Date', b'Thu, 26 Dec 2024 04:30:59 GMT'), (b'Connection', b'keep-alive'), (b'Keep-Alive', b'timeout=5')])
+2024-12-26 10:00:59,316 - httpx - INFO - HTTP Request: GET http://localhost:8084/api/data/quiz-answers "HTTP/1.1 200 OK"
+2024-12-26 10:00:59,316 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'GET']>
+2024-12-26 10:00:59,317 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-12-26 10:00:59,317 - httpcore.http11 - DEBUG - response_closed.started
+2024-12-26 10:00:59,318 - httpcore.http11 - DEBUG - response_closed.complete
+2024-12-26 10:00:59,327 - httpcore.connection - DEBUG - close.started
+2024-12-26 10:00:59,328 - httpcore.connection - DEBUG - close.complete
+2024-12-26 10:00:59,328 - learning_assessment_server - INFO - Successfully fetched user data
+2024-12-26 10:00:59,329 - learning_assessment_server - DEBUG - Quiz Analysis: {'topic_scores': {'general': 0.0, 'problem_solving': 0.0, 'learning_style': 0.0, 'logical_reasoning': 50.0, 'mathematical': 100.0, 'motivation': 100.0}, 'overall_score': 40.0, 'weak_areas': ['general', 'problem_solving', 'learning_style', 'logical_reasoning'], 'strengths': ['mathematical', 'motivation'], 'total_questions_answered': 10, 'question_distribution': {'general': 1, 'problem_solving': 2, 'learning_style': 2, 'logical_reasoning': 2, 'mathematical': 2, 'motivation': 1}}
+2024-12-26 10:00:59,362 - httpcore.connection - DEBUG - connect_tcp.started host='127.0.0.1' port=11434 local_address=None timeout=None socket_options=None
+2024-12-26 10:00:59,383 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000000056D9640>
+2024-12-26 10:00:59,387 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-12-26 10:00:59,389 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-12-26 10:00:59,390 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-12-26 10:00:59,391 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-12-26 10:00:59,391 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-12-26 10:02:27,676 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Thu, 26 Dec 2024 04:32:27 GMT'), (b'Content-Length', b'1678')])
+2024-12-26 10:02:27,715 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-12-26 10:02:27,718 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-12-26 10:02:27,721 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-12-26 10:02:27,722 - httpcore.http11 - DEBUG - response_closed.started
+2024-12-26 10:02:27,723 - httpcore.http11 - DEBUG - response_closed.complete
+2024-12-26 10:02:27,745 - learning_assessment_server - INFO - Successfully generated recommendations
+2024-12-26 10:02:27,745 - learning_assessment_server - DEBUG - Recommendations: {'recommendations': [{'id': None, 'title': 'Entrepreneurship and Business Strategy', 'description': 'Explore the strategic planning, financial management, and marketing tactics for starting and running a successful business.', 'confidence_score': 90.0}, {'id': None, 'title': 'Business Finance and Accounting', 'description': 'Understand the principles of finance, accounting, and taxation to make informed decisions about your business.', 'confidence_score': 85.0}, {'id': None, 'title': 'Marketing and Branding', 'description': 'Learn how to create a unique brand identity, develop a marketing strategy, and engage with your target audience.', 'confidence_score': 80.0}, {'id': None, 'title': 'Leadership and Management Skills', 'description': 'Develop the skills necessary to lead and manage a team effectively, including communication, decision-making, and conflict resolution.', 'confidence_score': 75.0}, {'id': None, 'title': 'Research Methods for Entrepreneurs', 'description': 'Learn how to conduct market research, analyze data, and make informed business decisions using statistical methods.', 'confidence_score': 60.0}, {'id': None, 'title': 'Business Law and Ethics', 'description': 'Understand the legal frameworks that govern businesses, including contracts, intellectual property, and employment law.', 'confidence_score': 70.0}], 'user_id': 12345}
+2024-12-26 10:02:27,786 - learning_assessment_server - INFO - Successfully stored recommendations
+2024-12-26 10:02:27,787 - learning_assessment_server - INFO - Successfully completed course suggestion process
+2024-12-26 10:19:24,332 - learning_assessment_server - INFO - Running startup initialization...
+2024-12-26 10:19:24,332 - learning_assessment_server - INFO - Initializing database...
+2024-12-26 10:19:24,336 - learning_assessment_server - INFO - Database initialization completed successfully
+2024-12-26 10:19:24,338 - learning_assessment_server - INFO - Database schema verified successfully
+2024-12-26 10:20:08,045 - learning_assessment_server - INFO - Running startup initialization...
+2024-12-26 10:20:08,046 - learning_assessment_server - INFO - Initializing database...
+2024-12-26 10:20:08,047 - learning_assessment_server - INFO - Database initialization completed successfully
+2024-12-26 10:20:08,048 - learning_assessment_server - INFO - Database schema verified successfully
+2024-12-26 10:26:43,449 - learning_assessment_server - INFO - Running startup initialization...
+2024-12-26 10:26:43,449 - learning_assessment_server - INFO - Initializing database...
+2024-12-26 10:26:43,451 - learning_assessment_server - INFO - Database initialization completed successfully
+2024-12-26 10:26:43,452 - learning_assessment_server - INFO - Database schema verified successfully
+2024-12-26 10:29:43,402 - learning_assessment_server - INFO - Running startup initialization...
+2024-12-26 10:29:43,403 - learning_assessment_server - INFO - Initializing database...
+2024-12-26 10:29:43,405 - learning_assessment_server - INFO - Database initialization completed successfully
+2024-12-26 10:29:43,406 - learning_assessment_server - INFO - Database schema verified successfully
+2024-12-26 10:29:51,833 - learning_assessment_server - INFO - Starting course suggestion for user_id: 2
+2024-12-26 10:29:51,834 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-12-26 10:29:51,835 - httpx - DEBUG - load_verify_locations cafile='C:\\Users\\rajas\\Documents\\MyProjects\\AIPLP Test\\venv\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-12-26 10:29:52,227 - httpcore.connection - DEBUG - connect_tcp.started host='localhost' port=8084 local_address=None timeout=5.0 socket_options=None
+2024-12-26 10:29:52,238 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x00000000056C4920>
+2024-12-26 10:29:52,238 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'GET']>
+2024-12-26 10:29:52,239 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-12-26 10:29:52,239 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'GET']>
+2024-12-26 10:29:52,240 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-12-26 10:29:52,240 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'GET']>
+2024-12-26 10:29:52,326 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'X-Powered-By', b'Express'), (b'Access-Control-Allow-Origin', b'*'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'716'), (b'ETag', b'W/"2cc-lsE1noJku9Y2tgmdt/I1htIbGHs"'), (b'Date', b'Thu, 26 Dec 2024 04:59:52 GMT'), (b'Connection', b'keep-alive'), (b'Keep-Alive', b'timeout=5')])
+2024-12-26 10:29:52,327 - httpx - INFO - HTTP Request: GET http://localhost:8084/api/data/survey-responses "HTTP/1.1 200 OK"
+2024-12-26 10:29:52,328 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'GET']>
+2024-12-26 10:29:52,329 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-12-26 10:29:52,329 - httpcore.http11 - DEBUG - response_closed.started
+2024-12-26 10:29:52,329 - httpcore.http11 - DEBUG - response_closed.complete
+2024-12-26 10:29:52,331 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'GET']>
+2024-12-26 10:29:52,331 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-12-26 10:29:52,331 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'GET']>
+2024-12-26 10:29:52,332 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-12-26 10:29:52,332 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'GET']>
+2024-12-26 10:29:52,343 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'X-Powered-By', b'Express'), (b'Access-Control-Allow-Origin', b'*'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'3440'), (b'ETag', b'W/"d70-s/XXMCDpDCY88JFrdh8jrW4S7wU"'), (b'Date', b'Thu, 26 Dec 2024 04:59:52 GMT'), (b'Connection', b'keep-alive'), (b'Keep-Alive', b'timeout=5')])
+2024-12-26 10:29:52,344 - httpx - INFO - HTTP Request: GET http://localhost:8084/api/data/quiz-answers "HTTP/1.1 200 OK"
+2024-12-26 10:29:52,345 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'GET']>
+2024-12-26 10:29:52,345 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-12-26 10:29:52,347 - httpcore.http11 - DEBUG - response_closed.started
+2024-12-26 10:29:52,347 - httpcore.http11 - DEBUG - response_closed.complete
+2024-12-26 10:29:52,356 - httpcore.connection - DEBUG - close.started
+2024-12-26 10:29:52,357 - httpcore.connection - DEBUG - close.complete
+2024-12-26 10:29:52,357 - learning_assessment_server - INFO - Successfully fetched user data
+2024-12-26 10:29:52,359 - learning_assessment_server - DEBUG - Quiz Analysis: {'topic_scores': {'general': 0.0, 'problem_solving': 0.0, 'learning_style': 50.0, 'logical_reasoning': 50.0, 'mathematical': 50.0, 'motivation': 0.0}, 'overall_score': 30.0, 'weak_areas': ['general', 'problem_solving', 'learning_style', 'logical_reasoning', 'mathematical', 'motivation'], 'strengths': [], 'total_questions_answered': 10, 'question_distribution': {'general': 1, 'problem_solving': 2, 'learning_style': 2, 'logical_reasoning': 2, 'mathematical': 2, 'motivation': 1}}
+2024-12-26 10:29:52,383 - httpcore.connection - DEBUG - connect_tcp.started host='127.0.0.1' port=11434 local_address=None timeout=None socket_options=None
+2024-12-26 10:29:52,392 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000000056C42C0>
+2024-12-26 10:29:52,394 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-12-26 10:29:52,394 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-12-26 10:29:52,395 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-12-26 10:29:52,396 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-12-26 10:29:52,396 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-12-26 10:30:51,121 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Thu, 26 Dec 2024 05:00:51 GMT'), (b'Content-Length', b'949')])
+2024-12-26 10:30:51,147 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-12-26 10:30:51,151 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-12-26 10:30:51,152 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-12-26 10:30:51,153 - httpcore.http11 - DEBUG - response_closed.started
+2024-12-26 10:30:51,154 - httpcore.http11 - DEBUG - response_closed.complete
+2024-12-26 10:30:51,162 - learning_assessment_server - INFO - Successfully generated recommendations
+2024-12-26 10:30:51,162 - learning_assessment_server - DEBUG - Recommendations: {'recommendations': [{'id': 1, 'title': 'Marketing Course with Interactive Elements', 'description': 'Interactive video lessons, quizzes, and discussions to cater to your learning style.', 'confidence_score': 70.0}, {'id': 2, 'title': 'Academic Writing and Research', 'description': 'Develop your writing skills and research techniques in a supportive online environment.', 'confidence_score': 60.0}, {'id': 3, 'title': 'Data Analysis for Marketing Professionals', 'description': 'Learn data analysis concepts through interactive simulations and case studies.', 'confidence_score': 80.0}], 'user_id': 0}
+2024-12-26 10:30:51,195 - learning_assessment_server - INFO - Successfully stored recommendations
+2024-12-26 10:30:51,195 - learning_assessment_server - INFO - Successfully completed course suggestion process
+2024-12-26 10:32:19,474 - httpcore.connection - DEBUG - close.started
+2024-12-26 10:32:19,475 - httpcore.connection - DEBUG - close.complete
+2024-12-26 10:32:19,475 - httpcore.connection - DEBUG - connect_tcp.started host='127.0.0.1' port=11434 local_address=None timeout=None socket_options=None
+2024-12-26 10:32:19,481 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000000056ED790>
+2024-12-26 10:32:19,482 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-12-26 10:32:19,483 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-12-26 10:32:19,483 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-12-26 10:32:19,484 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-12-26 10:32:19,484 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-12-26 10:33:42,043 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Thu, 26 Dec 2024 05:03:42 GMT'), (b'Transfer-Encoding', b'chunked')])
+2024-12-26 10:33:42,043 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-12-26 10:33:42,043 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-12-26 10:33:42,043 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-12-26 10:33:42,043 - httpcore.http11 - DEBUG - response_closed.started
+2024-12-26 10:33:42,043 - httpcore.http11 - DEBUG - response_closed.complete
+2024-12-26 10:38:32,092 - learning_assessment_server - ERROR - Error generating content: 'learning_objectives'
+2024-12-26 10:38:32,092 - learning_assessment_server - ERROR - Error in get_component_content: 500: Failed to generate content
+2024-12-26 10:40:13,609 - learning_assessment_server - INFO - Running startup initialization...
+2024-12-26 10:40:13,609 - learning_assessment_server - INFO - Initializing database...
+2024-12-26 10:40:13,609 - learning_assessment_server - INFO - Database initialization completed successfully
+2024-12-26 10:40:13,609 - learning_assessment_server - INFO - Database schema verified successfully
+2024-12-26 10:40:17,175 - learning_assessment_server - ERROR - Error generating content: 'learning_objectives'
+2024-12-26 10:40:17,175 - learning_assessment_server - ERROR - Error in get_component_content: 500: Failed to generate content
+2024-12-26 10:40:36,407 - learning_assessment_server - INFO - Running startup initialization...
+2024-12-26 10:40:36,408 - learning_assessment_server - INFO - Initializing database...
+2024-12-26 10:40:36,411 - learning_assessment_server - INFO - Database initialization completed successfully
+2024-12-26 10:40:36,413 - learning_assessment_server - INFO - Database schema verified successfully
+2024-12-26 10:40:38,860 - learning_assessment_server - ERROR - Error generating content: 'learning_objectives'
+2024-12-26 10:40:38,860 - learning_assessment_server - ERROR - Error in get_component_content: 500: Failed to generate content
+2024-12-26 10:42:40,746 - learning_assessment_server - INFO - Running startup initialization...
+2024-12-26 10:42:40,747 - learning_assessment_server - INFO - Initializing database...
+2024-12-26 10:42:40,748 - learning_assessment_server - INFO - Database initialization completed successfully
+2024-12-26 10:42:40,749 - learning_assessment_server - INFO - Database schema verified successfully
+2024-12-26 10:42:47,877 - learning_assessment_server - INFO - Running startup initialization...
+2024-12-26 10:42:47,877 - learning_assessment_server - INFO - Initializing database...
+2024-12-26 10:42:47,886 - learning_assessment_server - INFO - Database initialization completed successfully
+2024-12-26 10:42:47,886 - learning_assessment_server - INFO - Database schema verified successfully
+2024-12-26 10:42:52,100 - httpcore.connection - DEBUG - connect_tcp.started host='127.0.0.1' port=11434 local_address=None timeout=None socket_options=None
+2024-12-26 10:42:52,106 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000000056C9E20>
+2024-12-26 10:42:52,108 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-12-26 10:42:52,109 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-12-26 10:42:52,109 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-12-26 10:42:52,110 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-12-26 10:42:52,110 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-12-26 10:45:41,141 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Thu, 26 Dec 2024 05:15:41 GMT'), (b'Transfer-Encoding', b'chunked')])
+2024-12-26 10:45:41,191 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-12-26 10:45:41,193 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-12-26 10:45:41,193 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-12-26 10:45:41,193 - httpcore.http11 - DEBUG - response_closed.started
+2024-12-26 10:45:41,208 - httpcore.http11 - DEBUG - response_closed.complete
+2024-12-26 10:51:18,504 - learning_assessment_server - INFO - Running startup initialization...
+2024-12-26 10:51:18,504 - learning_assessment_server - INFO - Initializing database...
+2024-12-26 10:51:18,523 - learning_assessment_server - INFO - Database initialization completed successfully
+2024-12-26 10:51:18,524 - learning_assessment_server - INFO - Database schema verified successfully
+2024-12-26 10:51:30,095 - httpcore.connection - DEBUG - connect_tcp.started host='127.0.0.1' port=11434 local_address=None timeout=None socket_options=None
+2024-12-26 10:51:30,111 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000000056CDE80>
+2024-12-26 10:51:30,112 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-12-26 10:51:30,112 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-12-26 10:51:30,112 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-12-26 10:51:30,113 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-12-26 10:51:30,114 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-12-26 10:54:54,824 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Thu, 26 Dec 2024 05:24:54 GMT'), (b'Transfer-Encoding', b'chunked')])
+2024-12-26 10:54:54,865 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-12-26 10:54:54,867 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-12-26 10:54:54,869 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-12-26 10:54:54,871 - httpcore.http11 - DEBUG - response_closed.started
+2024-12-26 10:54:54,871 - httpcore.http11 - DEBUG - response_closed.complete
+2024-12-26 14:54:12,544 - learning_assessment_server - INFO - Running startup initialization...
+2024-12-26 14:54:12,545 - learning_assessment_server - INFO - Initializing database...
+2024-12-26 14:54:12,555 - learning_assessment_server - INFO - Database initialization completed successfully
+2024-12-26 14:54:12,557 - learning_assessment_server - INFO - Database schema verified successfully
+2024-12-26 14:54:51,944 - learning_assessment_server - INFO - Starting course suggestion for user_id: 1
+2024-12-26 14:54:51,945 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-12-26 14:54:51,946 - httpx - DEBUG - load_verify_locations cafile='C:\\Users\\Sannith\\Desktop\\AIPLP Test\\AIPLP Test\\venv\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-12-26 14:54:52,341 - httpcore.connection - DEBUG - connect_tcp.started host='localhost' port=8084 local_address=None timeout=5.0 socket_options=None
+2024-12-26 14:54:52,350 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x0000015738ADE420>
+2024-12-26 14:54:52,350 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'GET']>
+2024-12-26 14:54:52,351 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-12-26 14:54:52,351 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'GET']>
+2024-12-26 14:54:52,352 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-12-26 14:54:52,352 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'GET']>
+2024-12-26 14:54:52,371 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'', [(b'Cache-Control', b'no-cache, no-store, must-revalidate'), (b'Pragma', b'no-cache'), (b'Expires', b'0'), (b'X-Content-Type-Options', b'nosniff'), (b'X-XSS-Protection', b'1; mode=block'), (b'X-Frame-Options', b'DENY'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Date', b'Thu, 26 Dec 2024 09:24:52 GMT'), (b'Keep-Alive', b'timeout=60'), (b'Connection', b'keep-alive')])
+2024-12-26 14:54:52,373 - httpx - INFO - HTTP Request: GET http://localhost:8084/api/data/survey-responses "HTTP/1.1 200 "
+2024-12-26 14:54:52,375 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'GET']>
+2024-12-26 14:54:52,376 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-12-26 14:54:52,377 - httpcore.http11 - DEBUG - response_closed.started
+2024-12-26 14:54:52,378 - httpcore.http11 - DEBUG - response_closed.complete
+2024-12-26 14:54:52,381 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'GET']>
+2024-12-26 14:54:52,382 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-12-26 14:54:52,383 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'GET']>
+2024-12-26 14:54:52,384 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-12-26 14:54:52,384 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'GET']>
+2024-12-26 14:54:52,428 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'', [(b'Cache-Control', b'no-cache, no-store, must-revalidate'), (b'Pragma', b'no-cache'), (b'Expires', b'0'), (b'X-Content-Type-Options', b'nosniff'), (b'X-XSS-Protection', b'1; mode=block'), (b'X-Frame-Options', b'DENY'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Date', b'Thu, 26 Dec 2024 09:24:52 GMT'), (b'Keep-Alive', b'timeout=60'), (b'Connection', b'keep-alive')])
+2024-12-26 14:54:52,430 - httpx - INFO - HTTP Request: GET http://localhost:8084/api/data/quiz-answers "HTTP/1.1 200 "
+2024-12-26 14:54:52,431 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'GET']>
+2024-12-26 14:54:52,432 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-12-26 14:54:52,433 - httpcore.http11 - DEBUG - response_closed.started
+2024-12-26 14:54:52,434 - httpcore.http11 - DEBUG - response_closed.complete
+2024-12-26 14:54:52,449 - httpcore.connection - DEBUG - close.started
+2024-12-26 14:54:52,450 - httpcore.connection - DEBUG - close.complete
+2024-12-26 14:54:52,450 - learning_assessment_server - INFO - Successfully fetched user data
+2024-12-26 14:54:52,451 - learning_assessment_server - DEBUG - Quiz Analysis: {'topic_scores': {'general': 0.0, 'problem_solving': 0.0, 'learning_style': 0.0, 'logical_reasoning': 50.0, 'mathematical': 100.0, 'motivation': 100.0}, 'overall_score': 40.0, 'weak_areas': ['general', 'problem_solving', 'learning_style', 'logical_reasoning'], 'strengths': ['mathematical', 'motivation'], 'total_questions_answered': 10, 'question_distribution': {'general': 1, 'problem_solving': 2, 'learning_style': 2, 'logical_reasoning': 2, 'mathematical': 2, 'motivation': 1}}
+2024-12-26 14:54:52,465 - httpcore.connection - DEBUG - connect_tcp.started host='127.0.0.1' port=11434 local_address=None timeout=None socket_options=None
+2024-12-26 14:54:52,472 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000015738B113D0>
+2024-12-26 14:54:52,473 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-12-26 14:54:52,474 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-12-26 14:54:52,475 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-12-26 14:54:52,476 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-12-26 14:54:52,476 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-12-26 14:55:11,967 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Thu, 26 Dec 2024 09:25:11 GMT'), (b'Content-Length', b'1963')])
+2024-12-26 14:55:11,968 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-12-26 14:55:11,969 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-12-26 14:55:11,969 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-12-26 14:55:11,970 - httpcore.http11 - DEBUG - response_closed.started
+2024-12-26 14:55:11,971 - httpcore.http11 - DEBUG - response_closed.complete
+2024-12-26 14:55:11,974 - learning_assessment_server - INFO - Successfully generated recommendations
+2024-12-26 14:55:11,974 - learning_assessment_server - DEBUG - Recommendations: {'recommendations': [{'id': None, 'title': 'Business and Entrepreneurship Courses', 'description': 'Courses focused on business strategy, entrepreneurship, marketing, finance, accounting, management, leadership, innovation, sustainability, social responsibility, ethics, law, policy, organizational behavior, human resource management, organizational design, process improvement, change management, technology strategy, business models, product development, innovation management, market research, competitive analysis, marketing strategies, financial planning and analysis, risk management', 'confidence_score': 70.0}, {'id': None, 'title': 'Academic Courses in Business', 'description': 'Courses focused on the academic aspects of business, including business ethics, corporate governance, social responsibility, sustainability, organizational behavior, human resource management, marketing strategy, market research, financial management, accounting, finance, risk management, business law, policy, entrepreneurship, innovation, leadership development, change management, business models, globalization', 'confidence_score': 60.0}, {'id': None, 'title': 'Logical Reasoning and Problem Solving Courses', 'description': 'Courses focused on logical reasoning and problem solving for business students, including critical thinking, decision-making, analytical skills, case studies, strategy, leadership development, organizational behavior, human resource management, marketing strategy, market research, financial planning and analysis, risk management, business law, policy, entrepreneurship, innovation', 'confidence_score': 80.0}], 'user_id': 12345}
+2024-12-26 14:55:11,989 - learning_assessment_server - INFO - Successfully stored recommendations
+2024-12-26 14:55:11,990 - learning_assessment_server - INFO - Successfully completed course suggestion process
+2024-12-26 14:56:03,765 - learning_assessment_server - ERROR - Error in get_learning_path: 404: Course not found
+2024-12-26 14:56:31,317 - httpcore.connection - DEBUG - close.started
+2024-12-26 14:56:31,317 - httpcore.connection - DEBUG - close.complete
+2024-12-26 14:56:31,318 - httpcore.connection - DEBUG - connect_tcp.started host='127.0.0.1' port=11434 local_address=None timeout=None socket_options=None
+2024-12-26 14:56:31,318 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000015738B13110>
+2024-12-26 14:56:31,319 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-12-26 14:56:31,319 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-12-26 14:56:31,320 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-12-26 14:56:31,320 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-12-26 14:56:31,320 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-12-26 14:57:19,548 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Thu, 26 Dec 2024 09:27:19 GMT'), (b'Transfer-Encoding', b'chunked')])
+2024-12-26 14:57:19,549 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-12-26 14:57:19,549 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-12-26 14:57:19,550 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-12-26 14:57:19,550 - httpcore.http11 - DEBUG - response_closed.started
+2024-12-26 14:57:19,550 - httpcore.http11 - DEBUG - response_closed.complete
+2024-12-26 14:57:19,551 - learning_assessment_server - ERROR - Error in get_learning_path: 'user_pace'
+2024-12-26 15:03:40,662 - learning_assessment_server - INFO - Running startup initialization...
+2024-12-26 15:03:40,663 - learning_assessment_server - INFO - Initializing database...
+2024-12-26 15:03:40,664 - learning_assessment_server - INFO - Database initialization completed successfully
+2024-12-26 15:03:40,665 - learning_assessment_server - INFO - Database schema verified successfully
+2024-12-26 15:04:05,545 - learning_assessment_server - INFO - Starting course suggestion for user_id: 1
+2024-12-26 15:04:05,546 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-12-26 15:04:05,547 - httpx - DEBUG - load_verify_locations cafile='C:\\Users\\Sannith\\Desktop\\AIPLP Test\\AIPLP Test\\venv\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-12-26 15:04:05,923 - httpcore.connection - DEBUG - connect_tcp.started host='localhost' port=8084 local_address=None timeout=5.0 socket_options=None
+2024-12-26 15:04:05,931 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x000001C2B5D62E70>
+2024-12-26 15:04:05,932 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'GET']>
+2024-12-26 15:04:05,933 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-12-26 15:04:05,933 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'GET']>
+2024-12-26 15:04:05,933 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-12-26 15:04:05,933 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'GET']>
+2024-12-26 15:04:05,958 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'', [(b'Cache-Control', b'no-cache, no-store, must-revalidate'), (b'Pragma', b'no-cache'), (b'Expires', b'0'), (b'X-Content-Type-Options', b'nosniff'), (b'X-XSS-Protection', b'1; mode=block'), (b'X-Frame-Options', b'DENY'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Date', b'Thu, 26 Dec 2024 09:34:05 GMT'), (b'Keep-Alive', b'timeout=60'), (b'Connection', b'keep-alive')])
+2024-12-26 15:04:05,960 - httpx - INFO - HTTP Request: GET http://localhost:8084/api/data/survey-responses "HTTP/1.1 200 "
+2024-12-26 15:04:05,961 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'GET']>
+2024-12-26 15:04:05,962 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-12-26 15:04:05,963 - httpcore.http11 - DEBUG - response_closed.started
+2024-12-26 15:04:05,964 - httpcore.http11 - DEBUG - response_closed.complete
+2024-12-26 15:04:05,965 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'GET']>
+2024-12-26 15:04:05,966 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-12-26 15:04:05,967 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'GET']>
+2024-12-26 15:04:05,968 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-12-26 15:04:05,968 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'GET']>
+2024-12-26 15:04:06,002 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'', [(b'Cache-Control', b'no-cache, no-store, must-revalidate'), (b'Pragma', b'no-cache'), (b'Expires', b'0'), (b'X-Content-Type-Options', b'nosniff'), (b'X-XSS-Protection', b'1; mode=block'), (b'X-Frame-Options', b'DENY'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Date', b'Thu, 26 Dec 2024 09:34:05 GMT'), (b'Keep-Alive', b'timeout=60'), (b'Connection', b'keep-alive')])
+2024-12-26 15:04:06,004 - httpx - INFO - HTTP Request: GET http://localhost:8084/api/data/quiz-answers "HTTP/1.1 200 "
+2024-12-26 15:04:06,005 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'GET']>
+2024-12-26 15:04:06,006 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-12-26 15:04:06,007 - httpcore.http11 - DEBUG - response_closed.started
+2024-12-26 15:04:06,009 - httpcore.http11 - DEBUG - response_closed.complete
+2024-12-26 15:04:06,020 - httpcore.connection - DEBUG - close.started
+2024-12-26 15:04:06,021 - httpcore.connection - DEBUG - close.complete
+2024-12-26 15:04:06,023 - learning_assessment_server - INFO - Successfully fetched user data
+2024-12-26 15:04:06,024 - learning_assessment_server - DEBUG - Quiz Analysis: {'topic_scores': {'general': 0.0, 'problem_solving': 0.0, 'learning_style': 0.0, 'logical_reasoning': 50.0, 'mathematical': 100.0, 'motivation': 100.0}, 'overall_score': 40.0, 'weak_areas': ['general', 'problem_solving', 'learning_style', 'logical_reasoning'], 'strengths': ['mathematical', 'motivation'], 'total_questions_answered': 10, 'question_distribution': {'general': 1, 'problem_solving': 2, 'learning_style': 2, 'logical_reasoning': 2, 'mathematical': 2, 'motivation': 1}}
+2024-12-26 15:04:06,033 - httpcore.connection - DEBUG - connect_tcp.started host='127.0.0.1' port=11434 local_address=None timeout=None socket_options=None
+2024-12-26 15:04:06,039 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001C2B5D94EF0>
+2024-12-26 15:04:06,040 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-12-26 15:04:06,040 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-12-26 15:04:06,041 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-12-26 15:04:06,043 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-12-26 15:04:06,043 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-12-26 15:04:19,306 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Thu, 26 Dec 2024 09:34:19 GMT'), (b'Content-Length', b'1481')])
+2024-12-26 15:04:19,306 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-12-26 15:04:19,307 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-12-26 15:04:19,307 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-12-26 15:04:19,307 - httpcore.http11 - DEBUG - response_closed.started
+2024-12-26 15:04:19,308 - httpcore.http11 - DEBUG - response_closed.complete
+2024-12-26 15:04:19,311 - learning_assessment_server - INFO - Successfully generated recommendations
+2024-12-26 15:04:19,312 - learning_assessment_server - DEBUG - Recommendations: {'recommendations': [{'id': None, 'title': 'Business Law for Entrepreneurs', 'description': 'Dive into the world of business law, covering key concepts such as contracts, intellectual property, and corporate governance.', 'confidence_score': 0.7}, {'id': None, 'title': 'Entrepreneurial Finance', 'description': 'Explore the financial aspects of entrepreneurship, including funding options, tax planning, and risk management.', 'confidence_score': 0.8}, {'id': None, 'title': 'Marketing Strategy for Small Businesses', 'description': 'Learn how to develop a marketing strategy tailored to small businesses, covering topics such as target audience, branding, and advertising.', 'confidence_score': 0.9}, {'id': None, 'title': 'Time Management for Entrepreneurs', 'description': 'Discover effective time management techniques to balance work, personal life, and business growth.', 'confidence_score': 0.6}, {'id': None, 'title': 'Business Ethics and Sustainability', 'description': 'Explore the importance of business ethics and sustainability, covering topics such as corporate social responsibility and environmental impact.', 'confidence_score': 0.5}], 'user_id': 12345}
+2024-12-26 15:04:19,325 - learning_assessment_server - INFO - Successfully stored recommendations
+2024-12-26 15:04:19,326 - learning_assessment_server - INFO - Successfully completed course suggestion process
+2024-12-26 15:05:30,045 - httpcore.connection - DEBUG - close.started
+2024-12-26 15:05:30,046 - httpcore.connection - DEBUG - close.complete
+2024-12-26 15:05:30,047 - httpcore.connection - DEBUG - connect_tcp.started host='127.0.0.1' port=11434 local_address=None timeout=None socket_options=None
+2024-12-26 15:05:30,047 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001C2B5D96390>
+2024-12-26 15:05:30,048 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-12-26 15:05:30,049 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-12-26 15:05:30,049 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-12-26 15:05:30,049 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-12-26 15:05:30,050 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-12-26 15:05:59,872 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Thu, 26 Dec 2024 09:35:59 GMT'), (b'Transfer-Encoding', b'chunked')])
+2024-12-26 15:05:59,873 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-12-26 15:05:59,873 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-12-26 15:05:59,873 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-12-26 15:05:59,874 - httpcore.http11 - DEBUG - response_closed.started
+2024-12-26 15:05:59,874 - httpcore.http11 - DEBUG - response_closed.complete
+2024-12-26 15:06:59,789 - httpcore.connection - DEBUG - close.started
+2024-12-26 15:06:59,789 - httpcore.connection - DEBUG - close.complete
+2024-12-26 15:06:59,790 - httpcore.connection - DEBUG - connect_tcp.started host='127.0.0.1' port=11434 local_address=None timeout=None socket_options=None
+2024-12-26 15:06:59,791 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001C2B6228980>
+2024-12-26 15:06:59,791 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-12-26 15:06:59,792 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-12-26 15:06:59,792 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-12-26 15:06:59,793 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-12-26 15:06:59,793 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-12-26 15:07:06,185 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Thu, 26 Dec 2024 09:37:06 GMT'), (b'Content-Length', b'1109')])
+2024-12-26 15:07:06,186 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-12-26 15:07:06,186 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-12-26 15:07:06,187 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-12-26 15:07:06,188 - httpcore.http11 - DEBUG - response_closed.started
+2024-12-26 15:07:06,188 - httpcore.http11 - DEBUG - response_closed.complete
+2024-12-26 15:07:47,790 - httpcore.connection - DEBUG - close.started
+2024-12-26 15:07:47,791 - httpcore.connection - DEBUG - close.complete
+2024-12-26 15:07:47,792 - httpcore.connection - DEBUG - connect_tcp.started host='127.0.0.1' port=11434 local_address=None timeout=None socket_options=None
+2024-12-26 15:07:47,792 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001C2B5D97DD0>
+2024-12-26 15:07:47,793 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-12-26 15:07:47,793 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-12-26 15:07:47,794 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-12-26 15:07:47,794 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-12-26 15:07:47,795 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-12-26 15:08:18,048 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Thu, 26 Dec 2024 09:38:18 GMT'), (b'Transfer-Encoding', b'chunked')])
+2024-12-26 15:08:18,049 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-12-26 15:08:18,050 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-12-26 15:08:18,050 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-12-26 15:08:18,051 - httpcore.http11 - DEBUG - response_closed.started
+2024-12-26 15:08:18,051 - httpcore.http11 - DEBUG - response_closed.complete
+2024-12-26 15:29:50,299 - httpcore.connection - DEBUG - close.started
+2024-12-26 15:29:50,300 - httpcore.connection - DEBUG - close.complete
+2024-12-26 15:29:50,301 - httpcore.connection - DEBUG - connect_tcp.started host='127.0.0.1' port=11434 local_address=None timeout=None socket_options=None
+2024-12-26 15:29:50,302 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001C2B62297F0>
+2024-12-26 15:29:50,303 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-12-26 15:29:50,303 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-12-26 15:29:50,304 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-12-26 15:29:50,304 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-12-26 15:29:50,304 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-12-26 15:31:24,018 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Thu, 26 Dec 2024 10:01:24 GMT'), (b'Transfer-Encoding', b'chunked')])
+2024-12-26 15:31:24,018 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-12-26 15:31:24,019 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-12-26 15:31:24,020 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-12-26 15:31:24,021 - httpcore.http11 - DEBUG - response_closed.started
+2024-12-26 15:31:24,023 - httpcore.http11 - DEBUG - response_closed.complete
+2024-12-26 16:41:07,228 - learning_assessment_server - INFO - Running startup initialization...
+2024-12-26 16:41:07,230 - learning_assessment_server - INFO - Initializing database...
+2024-12-26 16:41:07,243 - learning_assessment_server - INFO - Database initialization completed successfully
+2024-12-26 16:41:07,246 - learning_assessment_server - INFO - Database schema verified successfully
+2024-12-26 16:42:23,817 - learning_assessment_server - INFO - Starting course suggestion for user_id: 1
+2024-12-26 16:42:23,818 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-12-26 16:42:23,819 - httpx - DEBUG - load_verify_locations cafile='C:\\Users\\Sannith\\Desktop\\AIPLP Test\\AIPLP Test\\venv\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-12-26 16:42:24,219 - httpcore.connection - DEBUG - connect_tcp.started host='localhost' port=8084 local_address=None timeout=5.0 socket_options=None
+2024-12-26 16:42:24,233 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x000001E69856B170>
+2024-12-26 16:42:24,234 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'GET']>
+2024-12-26 16:42:24,236 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-12-26 16:42:24,237 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'GET']>
+2024-12-26 16:42:24,238 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-12-26 16:42:24,239 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'GET']>
+2024-12-26 16:42:24,309 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'', [(b'Cache-Control', b'no-cache, no-store, must-revalidate'), (b'Pragma', b'no-cache'), (b'Expires', b'0'), (b'X-Content-Type-Options', b'nosniff'), (b'X-XSS-Protection', b'1; mode=block'), (b'X-Frame-Options', b'DENY'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Date', b'Thu, 26 Dec 2024 11:12:24 GMT'), (b'Keep-Alive', b'timeout=60'), (b'Connection', b'keep-alive')])
+2024-12-26 16:42:24,311 - httpx - INFO - HTTP Request: GET http://localhost:8084/api/data/survey-responses "HTTP/1.1 200 "
+2024-12-26 16:42:24,311 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'GET']>
+2024-12-26 16:42:24,313 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-12-26 16:42:24,313 - httpcore.http11 - DEBUG - response_closed.started
+2024-12-26 16:42:24,313 - httpcore.http11 - DEBUG - response_closed.complete
+2024-12-26 16:42:24,313 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'GET']>
+2024-12-26 16:42:24,314 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-12-26 16:42:24,315 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'GET']>
+2024-12-26 16:42:24,315 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-12-26 16:42:24,316 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'GET']>
+2024-12-26 16:42:24,376 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'', [(b'Cache-Control', b'no-cache, no-store, must-revalidate'), (b'Pragma', b'no-cache'), (b'Expires', b'0'), (b'X-Content-Type-Options', b'nosniff'), (b'X-XSS-Protection', b'1; mode=block'), (b'X-Frame-Options', b'DENY'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Date', b'Thu, 26 Dec 2024 11:12:24 GMT'), (b'Keep-Alive', b'timeout=60'), (b'Connection', b'keep-alive')])
+2024-12-26 16:42:24,378 - httpx - INFO - HTTP Request: GET http://localhost:8084/api/data/quiz-answers "HTTP/1.1 200 "
+2024-12-26 16:42:24,379 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'GET']>
+2024-12-26 16:42:24,381 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-12-26 16:42:24,381 - httpcore.http11 - DEBUG - response_closed.started
+2024-12-26 16:42:24,381 - httpcore.http11 - DEBUG - response_closed.complete
+2024-12-26 16:42:24,397 - httpcore.connection - DEBUG - close.started
+2024-12-26 16:42:24,399 - httpcore.connection - DEBUG - close.complete
+2024-12-26 16:42:24,400 - learning_assessment_server - INFO - Successfully fetched user data
+2024-12-26 16:42:24,401 - learning_assessment_server - DEBUG - Quiz Analysis: {'topic_scores': {'general': 0.0, 'problem_solving': 0.0, 'learning_style': 0.0, 'logical_reasoning': 50.0, 'mathematical': 100.0, 'motivation': 100.0}, 'overall_score': 40.0, 'weak_areas': ['general', 'problem_solving', 'learning_style', 'logical_reasoning'], 'strengths': ['mathematical', 'motivation'], 'total_questions_answered': 10, 'question_distribution': {'general': 1, 'problem_solving': 2, 'learning_style': 2, 'logical_reasoning': 2, 'mathematical': 2, 'motivation': 1}}
+2024-12-26 16:42:24,415 - httpcore.connection - DEBUG - connect_tcp.started host='127.0.0.1' port=11434 local_address=None timeout=None socket_options=None
+2024-12-26 16:42:24,420 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001E69864AC90>
+2024-12-26 16:42:24,421 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-12-26 16:42:24,422 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-12-26 16:42:24,423 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-12-26 16:42:24,424 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-12-26 16:42:24,424 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-12-26 16:42:51,268 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Thu, 26 Dec 2024 11:12:51 GMT'), (b'Content-Length', b'1400')])
+2024-12-26 16:42:51,268 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-12-26 16:42:51,269 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-12-26 16:42:51,270 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-12-26 16:42:51,270 - httpcore.http11 - DEBUG - response_closed.started
+2024-12-26 16:42:51,271 - httpcore.http11 - DEBUG - response_closed.complete
+2024-12-26 16:42:51,275 - learning_assessment_server - INFO - Successfully generated recommendations
+2024-12-26 16:42:51,275 - learning_assessment_server - DEBUG - Recommendations: {'recommendations': [{'id': 1, 'title': 'Entrepreneurial Leadership', 'description': 'Develop leadership skills to guide your business ventures, including strategic planning, communication, and decision-making.', 'confidence_score': 80.0}, {'id': 2, 'title': 'Academic Writing for Business Leaders', 'description': 'Improve your writing skills to effectively communicate your ideas in academic journals and publications.', 'confidence_score': 70.0}, {'id': 3, 'title': 'Critical Thinking Strategies', 'description': 'Enhance your problem-solving skills through critical thinking exercises and case studies.', 'confidence_score': 60.0}, {'id': 4, 'title': 'Business Ethics and Law', 'description': 'Gain a deeper understanding of business ethics and law to make informed decisions that align with your values and goals.', 'confidence_score': 80.0}, {'id': 5, 'title': 'Data Analysis for Business Decision-Making', 'description': 'Learn to analyze data to inform your business decisions and drive growth.', 'confidence_score': 70.0}], 'user_id': 1}
+2024-12-26 16:42:51,312 - learning_assessment_server - INFO - Successfully stored recommendations
+2024-12-26 16:42:51,312 - learning_assessment_server - INFO - Successfully completed course suggestion process
+2024-12-26 16:42:51,319 - learning_assessment_server - INFO - Starting course suggestion for user_id: 2
+2024-12-26 16:42:51,319 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-12-26 16:42:51,320 - httpx - DEBUG - load_verify_locations cafile='C:\\Users\\Sannith\\Desktop\\AIPLP Test\\AIPLP Test\\venv\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-12-26 16:42:51,732 - httpcore.connection - DEBUG - connect_tcp.started host='localhost' port=8084 local_address=None timeout=5.0 socket_options=None
+2024-12-26 16:42:51,734 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x000001E6986C30B0>
+2024-12-26 16:42:51,735 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'GET']>
+2024-12-26 16:42:51,735 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-12-26 16:42:51,736 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'GET']>
+2024-12-26 16:42:51,736 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-12-26 16:42:51,736 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'GET']>
+2024-12-26 16:42:51,762 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'', [(b'Cache-Control', b'no-cache, no-store, must-revalidate'), (b'Pragma', b'no-cache'), (b'Expires', b'0'), (b'X-Content-Type-Options', b'nosniff'), (b'X-XSS-Protection', b'1; mode=block'), (b'X-Frame-Options', b'DENY'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Date', b'Thu, 26 Dec 2024 11:12:51 GMT'), (b'Keep-Alive', b'timeout=60'), (b'Connection', b'keep-alive')])
+2024-12-26 16:42:51,764 - httpx - INFO - HTTP Request: GET http://localhost:8084/api/data/survey-responses "HTTP/1.1 200 "
+2024-12-26 16:42:51,765 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'GET']>
+2024-12-26 16:42:51,767 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-12-26 16:42:51,768 - httpcore.http11 - DEBUG - response_closed.started
+2024-12-26 16:42:51,769 - httpcore.http11 - DEBUG - response_closed.complete
+2024-12-26 16:42:51,772 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'GET']>
+2024-12-26 16:42:51,775 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-12-26 16:42:51,776 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'GET']>
+2024-12-26 16:42:51,778 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-12-26 16:42:51,779 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'GET']>
+2024-12-26 16:42:51,829 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'', [(b'Cache-Control', b'no-cache, no-store, must-revalidate'), (b'Pragma', b'no-cache'), (b'Expires', b'0'), (b'X-Content-Type-Options', b'nosniff'), (b'X-XSS-Protection', b'1; mode=block'), (b'X-Frame-Options', b'DENY'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Date', b'Thu, 26 Dec 2024 11:12:51 GMT'), (b'Keep-Alive', b'timeout=60'), (b'Connection', b'keep-alive')])
+2024-12-26 16:42:51,830 - httpx - INFO - HTTP Request: GET http://localhost:8084/api/data/quiz-answers "HTTP/1.1 200 "
+2024-12-26 16:42:51,831 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'GET']>
+2024-12-26 16:42:51,835 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-12-26 16:42:51,836 - httpcore.http11 - DEBUG - response_closed.started
+2024-12-26 16:42:51,837 - httpcore.http11 - DEBUG - response_closed.complete
+2024-12-26 16:42:51,857 - httpcore.connection - DEBUG - close.started
+2024-12-26 16:42:51,858 - httpcore.connection - DEBUG - close.complete
+2024-12-26 16:42:51,860 - learning_assessment_server - INFO - Successfully fetched user data
+2024-12-26 16:42:51,860 - learning_assessment_server - DEBUG - Quiz Analysis: {'topic_scores': {'general': 0.0, 'problem_solving': 0.0, 'learning_style': 50.0, 'logical_reasoning': 50.0, 'mathematical': 50.0, 'motivation': 0.0}, 'overall_score': 30.0, 'weak_areas': ['general', 'problem_solving', 'learning_style', 'logical_reasoning', 'mathematical', 'motivation'], 'strengths': [], 'total_questions_answered': 10, 'question_distribution': {'general': 1, 'problem_solving': 2, 'learning_style': 2, 'logical_reasoning': 2, 'mathematical': 2, 'motivation': 1}}
+2024-12-26 16:42:51,864 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-12-26 16:42:51,866 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-12-26 16:42:51,866 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-12-26 16:42:51,867 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-12-26 16:42:51,868 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-12-26 16:43:05,126 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Thu, 26 Dec 2024 11:13:05 GMT'), (b'Content-Length', b'1509')])
+2024-12-26 16:43:05,126 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-12-26 16:43:05,126 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-12-26 16:43:05,127 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-12-26 16:43:05,127 - httpcore.http11 - DEBUG - response_closed.started
+2024-12-26 16:43:05,127 - httpcore.http11 - DEBUG - response_closed.complete
+2024-12-26 16:43:05,128 - learning_assessment_server - INFO - Successfully generated recommendations
+2024-12-26 16:43:05,128 - learning_assessment_server - DEBUG - Recommendations: {'recommendations': [{'id': None, 'title': 'Marketing Fundamentals', 'description': 'An introductory course covering the basics of marketing, including market research, target audience analysis, and campaign development.', 'confidence_score': 0.7}, {'id': None, 'title': 'Data Analysis for Marketing Professionals', 'description': 'A course that teaches data analysis techniques, including statistical inference, hypothesis testing, and regression analysis, relevant to marketing professionals.', 'confidence_score': 0.8}, {'id': None, 'title': 'Critical Thinking in Marketing', 'description': 'A course that focuses on developing critical thinking skills, including logical reasoning, problem-solving, and analytical thinking, essential for marketing professionals.', 'confidence_score': 0.6}, {'id': None, 'title': 'Academic Writing for Business Students', 'description': 'A course that teaches students how to write effectively in an academic setting, focusing on clarity, concision, and persuasive writing skills.', 'confidence_score': 0.9}], 'user_id': 1234567890}
+2024-12-26 16:43:05,139 - learning_assessment_server - INFO - Successfully stored recommendations
+2024-12-26 16:43:05,139 - learning_assessment_server - INFO - Successfully completed course suggestion process
+2024-12-26 16:44:14,417 - httpcore.connection - DEBUG - close.started
+2024-12-26 16:44:14,417 - httpcore.connection - DEBUG - close.complete
+2024-12-26 16:44:14,418 - httpcore.connection - DEBUG - connect_tcp.started host='127.0.0.1' port=11434 local_address=None timeout=None socket_options=None
+2024-12-26 16:44:14,419 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001E6986F2780>
+2024-12-26 16:44:14,419 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-12-26 16:44:14,421 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-12-26 16:44:14,421 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-12-26 16:44:14,421 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-12-26 16:44:14,421 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-12-26 16:48:07,477 - __main__ - INFO - Initializing database...
+2024-12-26 16:48:07,478 - __main__ - INFO - Initializing database...
+2024-12-26 16:48:07,480 - __main__ - INFO - Database initialization completed successfully
+2024-12-26 16:48:07,481 - __main__ - INFO - Database schema verified successfully
+2024-12-26 16:48:07,482 - __main__ - INFO - Starting FastAPI server...
+2024-12-26 16:48:54,582 - __main__ - INFO - Initializing database...
+2024-12-26 16:48:54,583 - __main__ - INFO - Initializing database...
+2024-12-26 16:48:54,584 - __main__ - INFO - Database initialization completed successfully
+2024-12-26 16:48:54,585 - __main__ - INFO - Database schema verified successfully
+2024-12-26 16:48:54,585 - __main__ - INFO - Starting FastAPI server...
+2024-12-26 16:49:31,496 - learning_assessment_server - INFO - Running startup initialization...
+2024-12-26 16:49:31,496 - learning_assessment_server - INFO - Initializing database...
+2024-12-26 16:49:31,498 - learning_assessment_server - INFO - Database initialization completed successfully
+2024-12-26 16:49:31,499 - learning_assessment_server - INFO - Database schema verified successfully
+2024-12-26 16:51:42,243 - learning_assessment_server - INFO - Starting course suggestion for user_id: 2
+2024-12-26 16:51:42,244 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-12-26 16:51:42,245 - httpx - DEBUG - load_verify_locations cafile='C:\\Users\\Sannith\\Desktop\\AIPLP Test\\AIPLP Test\\venv\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-12-26 16:51:42,657 - httpcore.connection - DEBUG - connect_tcp.started host='localhost' port=8084 local_address=None timeout=5.0 socket_options=None
+2024-12-26 16:51:42,667 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x000002A158EE3950>
+2024-12-26 16:51:42,668 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'GET']>
+2024-12-26 16:51:42,668 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-12-26 16:51:42,669 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'GET']>
+2024-12-26 16:51:42,669 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-12-26 16:51:42,669 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'GET']>
+2024-12-26 16:51:42,683 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'', [(b'Cache-Control', b'no-cache, no-store, must-revalidate'), (b'Pragma', b'no-cache'), (b'Expires', b'0'), (b'X-Content-Type-Options', b'nosniff'), (b'X-XSS-Protection', b'1; mode=block'), (b'X-Frame-Options', b'DENY'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Date', b'Thu, 26 Dec 2024 11:21:42 GMT'), (b'Keep-Alive', b'timeout=60'), (b'Connection', b'keep-alive')])
+2024-12-26 16:51:42,685 - httpx - INFO - HTTP Request: GET http://localhost:8084/api/data/survey-responses "HTTP/1.1 200 "
+2024-12-26 16:51:42,685 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'GET']>
+2024-12-26 16:51:42,686 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-12-26 16:51:42,686 - httpcore.http11 - DEBUG - response_closed.started
+2024-12-26 16:51:42,687 - httpcore.http11 - DEBUG - response_closed.complete
+2024-12-26 16:51:42,688 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'GET']>
+2024-12-26 16:51:42,689 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-12-26 16:51:42,690 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'GET']>
+2024-12-26 16:51:42,691 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-12-26 16:51:42,691 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'GET']>
+2024-12-26 16:51:42,707 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'', [(b'Cache-Control', b'no-cache, no-store, must-revalidate'), (b'Pragma', b'no-cache'), (b'Expires', b'0'), (b'X-Content-Type-Options', b'nosniff'), (b'X-XSS-Protection', b'1; mode=block'), (b'X-Frame-Options', b'DENY'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Date', b'Thu, 26 Dec 2024 11:21:42 GMT'), (b'Keep-Alive', b'timeout=60'), (b'Connection', b'keep-alive')])
+2024-12-26 16:51:42,709 - httpx - INFO - HTTP Request: GET http://localhost:8084/api/data/quiz-answers "HTTP/1.1 200 "
+2024-12-26 16:51:42,710 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'GET']>
+2024-12-26 16:51:42,711 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-12-26 16:51:42,713 - httpcore.http11 - DEBUG - response_closed.started
+2024-12-26 16:51:42,713 - httpcore.http11 - DEBUG - response_closed.complete
+2024-12-26 16:51:42,724 - httpcore.connection - DEBUG - close.started
+2024-12-26 16:51:42,725 - httpcore.connection - DEBUG - close.complete
+2024-12-26 16:51:42,726 - learning_assessment_server - INFO - Successfully fetched user data
+2024-12-26 16:51:42,727 - learning_assessment_server - DEBUG - Quiz Analysis: {'topic_scores': {'general': 0.0, 'problem_solving': 0.0, 'learning_style': 50.0, 'logical_reasoning': 50.0, 'mathematical': 50.0, 'motivation': 0.0}, 'overall_score': 30.0, 'weak_areas': ['general', 'problem_solving', 'learning_style', 'logical_reasoning', 'mathematical', 'motivation'], 'strengths': [], 'total_questions_answered': 10, 'question_distribution': {'general': 1, 'problem_solving': 2, 'learning_style': 2, 'logical_reasoning': 2, 'mathematical': 2, 'motivation': 1}}
+2024-12-26 16:51:42,740 - httpcore.connection - DEBUG - connect_tcp.started host='127.0.0.1' port=11434 local_address=None timeout=None socket_options=None
+2024-12-26 16:51:42,750 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002A158F11CD0>
+2024-12-26 16:51:42,751 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-12-26 16:51:42,753 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-12-26 16:51:42,753 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-12-26 16:51:42,754 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-12-26 16:51:42,754 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-12-26 16:51:52,953 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Thu, 26 Dec 2024 11:21:52 GMT'), (b'Content-Length', b'1098')])
+2024-12-26 16:51:52,953 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-12-26 16:51:52,954 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-12-26 16:51:52,954 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-12-26 16:51:52,954 - httpcore.http11 - DEBUG - response_closed.started
+2024-12-26 16:51:52,955 - httpcore.http11 - DEBUG - response_closed.complete
+2024-12-26 16:51:52,958 - learning_assessment_server - INFO - Successfully generated recommendations
+2024-12-26 16:51:52,958 - learning_assessment_server - DEBUG - Recommendations: {'recommendations': [{'id': 1, 'title': 'Marketing Course with Interactive Elements', 'description': 'This course will provide you with the opportunity to explore marketing concepts in an engaging and interactive way.', 'confidence_score': 70.0}, {'id': 2, 'title': 'Academic Marketing Specialization', 'description': 'This specialization will focus on providing a comprehensive understanding of marketing principles and practices, with an emphasis on academic rigor.', 'confidence_score': 60.0}, {'id': 3, 'title': 'Interactive Problem-Solving in Marketing', 'description': 'This course will help you develop your problem-solving skills in the context of marketing, using interactive exercises and case studies.', 'confidence_score': 80.0}], 'user_id': 1}
+2024-12-26 16:51:52,970 - learning_assessment_server - INFO - Successfully stored recommendations
+2024-12-26 16:51:52,971 - learning_assessment_server - INFO - Successfully completed course suggestion process
+2024-12-26 16:52:33,050 - httpcore.connection - DEBUG - close.started
+2024-12-26 16:52:33,051 - httpcore.connection - DEBUG - close.complete
+2024-12-26 16:52:33,051 - httpcore.connection - DEBUG - connect_tcp.started host='127.0.0.1' port=11434 local_address=None timeout=None socket_options=None
+2024-12-26 16:52:33,052 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002A158F13590>
+2024-12-26 16:52:33,052 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-12-26 16:52:33,053 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-12-26 16:52:33,053 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-12-26 16:52:33,053 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-12-26 16:52:33,054 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-12-26 16:54:03,865 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Thu, 26 Dec 2024 11:24:03 GMT'), (b'Transfer-Encoding', b'chunked')])
+2024-12-26 16:54:03,865 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-12-26 16:54:03,866 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-12-26 16:54:03,866 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-12-26 16:54:03,866 - httpcore.http11 - DEBUG - response_closed.started
+2024-12-26 16:54:03,867 - httpcore.http11 - DEBUG - response_closed.complete
+2024-12-26 16:56:49,117 - httpcore.connection - DEBUG - close.started
+2024-12-26 16:56:49,118 - httpcore.connection - DEBUG - close.complete
+2024-12-26 16:56:49,118 - httpcore.connection - DEBUG - connect_tcp.started host='127.0.0.1' port=11434 local_address=None timeout=None socket_options=None
+2024-12-26 16:56:49,118 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002A158F913A0>
+2024-12-26 16:56:49,119 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-12-26 16:56:49,119 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-12-26 16:56:49,120 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-12-26 16:56:49,120 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-12-26 16:56:49,120 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-12-26 16:57:25,014 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Thu, 26 Dec 2024 11:27:25 GMT'), (b'Transfer-Encoding', b'chunked')])
+2024-12-26 16:57:25,015 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-12-26 16:57:25,015 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-12-26 16:57:25,016 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-12-26 16:57:25,016 - httpcore.http11 - DEBUG - response_closed.started
+2024-12-26 16:57:25,016 - httpcore.http11 - DEBUG - response_closed.complete
+2024-12-26 20:52:21,129 - learning_assessment_server - INFO - Running startup initialization...
+2024-12-26 20:52:21,129 - learning_assessment_server - INFO - Initializing database...
+2024-12-26 20:52:21,147 - learning_assessment_server - INFO - Database initialization completed successfully
+2024-12-26 20:52:21,150 - learning_assessment_server - INFO - Database schema verified successfully
+2024-12-26 21:02:12,692 - learning_assessment_server - INFO - Starting course suggestion for user_id: 3
+2024-12-26 21:02:12,693 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-12-26 21:02:12,694 - httpx - DEBUG - load_verify_locations cafile='C:\\Users\\Sannith\\Desktop\\AIPLP Test\\AIPLP Test\\venv\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-12-26 21:02:13,170 - httpcore.connection - DEBUG - connect_tcp.started host='localhost' port=8084 local_address=None timeout=5.0 socket_options=None
+2024-12-26 21:02:13,189 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x000001EA8B040260>
+2024-12-26 21:02:13,190 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'GET']>
+2024-12-26 21:02:13,191 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-12-26 21:02:13,192 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'GET']>
+2024-12-26 21:02:13,193 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-12-26 21:02:13,194 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'GET']>
+2024-12-26 21:02:13,226 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'', [(b'Cache-Control', b'no-cache, no-store, must-revalidate'), (b'Pragma', b'no-cache'), (b'Expires', b'0'), (b'X-Content-Type-Options', b'nosniff'), (b'X-XSS-Protection', b'1; mode=block'), (b'X-Frame-Options', b'DENY'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Date', b'Thu, 26 Dec 2024 15:32:13 GMT'), (b'Keep-Alive', b'timeout=60'), (b'Connection', b'keep-alive')])
+2024-12-26 21:02:13,231 - httpx - INFO - HTTP Request: GET http://localhost:8084/api/data/survey-responses "HTTP/1.1 200 "
+2024-12-26 21:02:13,234 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'GET']>
+2024-12-26 21:02:13,238 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-12-26 21:02:13,239 - httpcore.http11 - DEBUG - response_closed.started
+2024-12-26 21:02:13,240 - httpcore.http11 - DEBUG - response_closed.complete
+2024-12-26 21:02:13,241 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'GET']>
+2024-12-26 21:02:13,244 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-12-26 21:02:13,246 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'GET']>
+2024-12-26 21:02:13,249 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-12-26 21:02:13,250 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'GET']>
+2024-12-26 21:02:13,320 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'', [(b'Cache-Control', b'no-cache, no-store, must-revalidate'), (b'Pragma', b'no-cache'), (b'Expires', b'0'), (b'X-Content-Type-Options', b'nosniff'), (b'X-XSS-Protection', b'1; mode=block'), (b'X-Frame-Options', b'DENY'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Date', b'Thu, 26 Dec 2024 15:32:13 GMT'), (b'Keep-Alive', b'timeout=60'), (b'Connection', b'keep-alive')])
+2024-12-26 21:02:13,322 - httpx - INFO - HTTP Request: GET http://localhost:8084/api/data/quiz-answers "HTTP/1.1 200 "
+2024-12-26 21:02:13,324 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'GET']>
+2024-12-26 21:02:13,325 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-12-26 21:02:13,328 - httpcore.http11 - DEBUG - response_closed.started
+2024-12-26 21:02:13,330 - httpcore.http11 - DEBUG - response_closed.complete
+2024-12-26 21:02:13,352 - httpcore.connection - DEBUG - close.started
+2024-12-26 21:02:13,354 - httpcore.connection - DEBUG - close.complete
+2024-12-26 21:02:13,355 - learning_assessment_server - INFO - Successfully fetched user data
+2024-12-26 21:02:13,356 - learning_assessment_server - DEBUG - Quiz Analysis: {'topic_scores': {'general': 0.0, 'problem_solving': 0.0, 'learning_style': 50.0, 'logical_reasoning': 100.0, 'mathematical': 50.0, 'motivation': 100.0}, 'overall_score': 50.0, 'weak_areas': ['general', 'problem_solving', 'learning_style', 'mathematical'], 'strengths': ['logical_reasoning', 'motivation'], 'total_questions_answered': 10, 'question_distribution': {'general': 1, 'problem_solving': 2, 'learning_style': 2, 'logical_reasoning': 2, 'mathematical': 2, 'motivation': 1}}
+2024-12-26 21:02:13,397 - httpcore.connection - DEBUG - connect_tcp.started host='127.0.0.1' port=11434 local_address=None timeout=None socket_options=None
+2024-12-26 21:02:13,407 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001EA8B043E90>
+2024-12-26 21:02:13,408 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-12-26 21:02:13,409 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-12-26 21:02:13,410 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-12-26 21:02:13,410 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-12-26 21:02:13,411 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-12-26 21:02:32,586 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Thu, 26 Dec 2024 15:32:32 GMT'), (b'Content-Length', b'1034')])
+2024-12-26 21:02:32,587 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-12-26 21:02:32,588 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-12-26 21:02:32,589 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-12-26 21:02:32,591 - httpcore.http11 - DEBUG - response_closed.started
+2024-12-26 21:02:32,591 - httpcore.http11 - DEBUG - response_closed.complete
+2024-12-26 21:02:32,597 - learning_assessment_server - INFO - Successfully generated recommendations
+2024-12-26 21:02:32,597 - learning_assessment_server - DEBUG - Recommendations: {'recommendations': [{'id': 1, 'title': 'Digital Marketing Fundamentals', 'description': 'Learn the basics of digital marketing, including online advertising, social media marketing, and SEO.', 'confidence_score': 80.0}, {'id': 2, 'title': 'Marketing Strategy Development', 'description': 'Develop a comprehensive marketing strategy for your startup, covering market research, target audience analysis, and competitive analysis.', 'confidence_score': 70.0}, {'id': 3, 'title': 'Entrepreneurship Essentials', 'description': 'Learn the fundamentals of entrepreneurship, including business planning, financial management, and leadership skills.', 'confidence_score': 90.0}], 'user_id': 12345}
+2024-12-26 21:02:32,615 - learning_assessment_server - INFO - Successfully stored recommendations
+2024-12-26 21:02:32,616 - learning_assessment_server - INFO - Successfully completed course suggestion process
+2024-12-26 21:05:05,401 - httpcore.connection - DEBUG - close.started
+2024-12-26 21:05:05,401 - httpcore.connection - DEBUG - close.complete
+2024-12-26 21:05:05,402 - httpcore.connection - DEBUG - connect_tcp.started host='127.0.0.1' port=11434 local_address=None timeout=None socket_options=None
+2024-12-26 21:05:05,403 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001EA8B073E30>
+2024-12-26 21:05:05,404 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-12-26 21:05:05,405 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-12-26 21:05:05,405 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-12-26 21:05:05,407 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-12-26 21:05:05,407 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-12-26 21:05:48,620 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Thu, 26 Dec 2024 15:35:48 GMT'), (b'Transfer-Encoding', b'chunked')])
+2024-12-26 21:05:48,622 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-12-26 21:05:48,623 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-12-26 21:05:48,624 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-12-26 21:05:48,624 - httpcore.http11 - DEBUG - response_closed.started
+2024-12-26 21:05:48,624 - httpcore.http11 - DEBUG - response_closed.complete
+2025-03-23 16:30:34,364 - learning_assessment_server - INFO - Running startup initialization...
+2025-03-23 16:30:34,365 - learning_assessment_server - INFO - Initializing database...
+2025-03-23 16:30:34,366 - learning_assessment_server - INFO - Database initialization completed successfully
+2025-03-23 16:30:34,366 - learning_assessment_server - INFO - Database schema verified successfully
+2025-03-23 16:31:17,305 - learning_assessment_server - ERROR - Error in get_component_content: 404: Course not found
+2025-03-23 16:31:28,585 - learning_assessment_server - ERROR - Error in get_component_content: 404: Course not found
+2025-03-23 16:33:22,125 - learning_assessment_server - INFO - Starting course suggestion for user_id: 6
+2025-03-23 16:33:22,549 - httpcore.connection - DEBUG - connect_tcp.started host='localhost' port=8084 local_address=None timeout=5.0 socket_options=None
+2025-03-23 16:33:22,596 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x000001F99F9E6C30>
+2025-03-23 16:33:22,597 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'GET']>
+2025-03-23 16:33:22,598 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-03-23 16:33:22,598 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'GET']>
+2025-03-23 16:33:22,598 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-03-23 16:33:22,598 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'GET']>
+2025-03-23 16:33:22,642 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'', [(b'Cache-Control', b'no-cache, no-store, must-revalidate'), (b'Pragma', b'no-cache'), (b'Expires', b'0'), (b'X-Content-Type-Options', b'nosniff'), (b'X-XSS-Protection', b'1; mode=block'), (b'X-Frame-Options', b'DENY'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Date', b'Sun, 23 Mar 2025 11:03:22 GMT'), (b'Keep-Alive', b'timeout=60'), (b'Connection', b'keep-alive')])
+2025-03-23 16:33:22,645 - httpx - INFO - HTTP Request: GET http://localhost:8084/api/data/survey-responses "HTTP/1.1 200 "
+2025-03-23 16:33:22,646 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'GET']>
+2025-03-23 16:33:22,647 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-03-23 16:33:22,650 - httpcore.http11 - DEBUG - response_closed.started
+2025-03-23 16:33:22,650 - httpcore.http11 - DEBUG - response_closed.complete
+2025-03-23 16:33:22,652 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'GET']>
+2025-03-23 16:33:22,652 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-03-23 16:33:22,654 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'GET']>
+2025-03-23 16:33:22,654 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-03-23 16:33:22,654 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'GET']>
+2025-03-23 16:33:22,706 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'', [(b'Cache-Control', b'no-cache, no-store, must-revalidate'), (b'Pragma', b'no-cache'), (b'Expires', b'0'), (b'X-Content-Type-Options', b'nosniff'), (b'X-XSS-Protection', b'1; mode=block'), (b'X-Frame-Options', b'DENY'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Date', b'Sun, 23 Mar 2025 11:03:22 GMT'), (b'Keep-Alive', b'timeout=60'), (b'Connection', b'keep-alive')])
+2025-03-23 16:33:22,707 - httpx - INFO - HTTP Request: GET http://localhost:8084/api/data/quiz-answers "HTTP/1.1 200 "
+2025-03-23 16:33:22,707 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'GET']>
+2025-03-23 16:33:22,709 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-03-23 16:33:22,709 - httpcore.http11 - DEBUG - response_closed.started
+2025-03-23 16:33:22,709 - httpcore.http11 - DEBUG - response_closed.complete
+2025-03-23 16:33:22,724 - httpcore.connection - DEBUG - close.started
+2025-03-23 16:33:22,725 - httpcore.connection - DEBUG - close.complete
+2025-03-23 16:33:22,725 - learning_assessment_server - INFO - Successfully fetched user data
+2025-03-23 16:33:22,726 - learning_assessment_server - DEBUG - Quiz Analysis: {'topic_scores': {'general': 100.0, 'problem_solving': 0.0, 'learning_style': 50.0, 'logical_reasoning': 100.0, 'mathematical': 100.0, 'motivation': 100.0}, 'overall_score': 70.0, 'weak_areas': ['problem_solving', 'learning_style'], 'strengths': ['general', 'logical_reasoning', 'mathematical', 'motivation'], 'total_questions_answered': 10, 'question_distribution': {'general': 1, 'problem_solving': 2, 'learning_style': 2, 'logical_reasoning': 2, 'mathematical': 2, 'motivation': 1}}
+2025-03-23 16:33:22,770 - httpcore.connection - DEBUG - connect_tcp.started host='127.0.0.1' port=11434 local_address=None timeout=None socket_options=None
+2025-03-23 16:33:22,780 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001F99F9E7680>
+2025-03-23 16:33:22,781 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-03-23 16:33:22,782 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-03-23 16:33:22,783 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-03-23 16:33:22,783 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-03-23 16:33:22,783 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-03-23 16:33:37,589 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Sun, 23 Mar 2025 11:03:37 GMT'), (b'Content-Length', b'941')])
+2025-03-23 16:33:37,590 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-03-23 16:33:37,591 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-03-23 16:33:37,593 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-03-23 16:33:37,593 - httpcore.http11 - DEBUG - response_closed.started
+2025-03-23 16:33:37,593 - httpcore.http11 - DEBUG - response_closed.complete
+2025-03-23 16:33:37,600 - learning_assessment_server - INFO - Successfully generated recommendations
+2025-03-23 16:33:37,600 - learning_assessment_server - DEBUG - Recommendations: {'recommendations': [{'id': 1, 'title': 'Introduction to Business Management', 'description': 'An introductory course covering the basics of business management, including organizational behavior, marketing, and finance.', 'confidence_score': 0.8}, {'id': 2, 'title': 'Career Development for Business Professionals', 'description': 'A course focusing on career development strategies for business professionals, including resume building, networking, and job search techniques.', 'confidence_score': 0.9}], 'user_id': 1}
+2025-03-23 16:33:37,617 - learning_assessment_server - INFO - Successfully stored recommendations
+2025-03-23 16:33:37,618 - learning_assessment_server - INFO - Successfully completed course suggestion process
+2025-03-23 16:33:54,720 - httpcore.connection - DEBUG - close.started
+2025-03-23 16:33:54,721 - httpcore.connection - DEBUG - close.complete
+2025-03-23 16:33:54,721 - httpcore.connection - DEBUG - connect_tcp.started host='127.0.0.1' port=11434 local_address=None timeout=None socket_options=None
+2025-03-23 16:33:54,723 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001F99F9E7740>
+2025-03-23 16:33:54,724 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-03-23 16:33:54,725 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-03-23 16:33:54,725 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-03-23 16:33:54,725 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-03-23 16:33:54,725 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-03-23 16:34:18,429 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Sun, 23 Mar 2025 11:04:18 GMT'), (b'Transfer-Encoding', b'chunked')])
+2025-03-23 16:34:18,429 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-03-23 16:34:18,430 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-03-23 16:34:18,430 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-03-23 16:34:18,430 - httpcore.http11 - DEBUG - response_closed.started
+2025-03-23 16:34:18,430 - httpcore.http11 - DEBUG - response_closed.complete
+2025-03-23 16:34:18,479 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-03-23 16:34:18,480 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-03-23 16:34:18,481 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-03-23 16:34:18,482 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-03-23 16:34:18,482 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-03-23 16:35:09,222 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Sun, 23 Mar 2025 11:05:09 GMT'), (b'Transfer-Encoding', b'chunked')])
+2025-03-23 16:35:09,223 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-03-23 16:35:09,225 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-03-23 16:35:09,225 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-03-23 16:35:09,226 - httpcore.http11 - DEBUG - response_closed.started
+2025-03-23 16:35:09,226 - httpcore.http11 - DEBUG - response_closed.complete
+2025-03-23 16:42:31,618 - learning_assessment_server - INFO - Starting course suggestion for user_id: 1
+2025-03-23 16:42:32,023 - httpcore.connection - DEBUG - connect_tcp.started host='localhost' port=8084 local_address=None timeout=5.0 socket_options=None
+2025-03-23 16:42:32,034 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x000001F99F9A4500>
+2025-03-23 16:42:32,035 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'GET']>
+2025-03-23 16:42:32,037 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-03-23 16:42:32,038 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'GET']>
+2025-03-23 16:42:32,041 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-03-23 16:42:32,041 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'GET']>
+2025-03-23 16:42:32,060 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'', [(b'Cache-Control', b'no-cache, no-store, must-revalidate'), (b'Pragma', b'no-cache'), (b'Expires', b'0'), (b'X-Content-Type-Options', b'nosniff'), (b'X-XSS-Protection', b'1; mode=block'), (b'X-Frame-Options', b'DENY'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Date', b'Sun, 23 Mar 2025 11:12:31 GMT'), (b'Keep-Alive', b'timeout=60'), (b'Connection', b'keep-alive')])
+2025-03-23 16:42:32,062 - httpx - INFO - HTTP Request: GET http://localhost:8084/api/data/survey-responses "HTTP/1.1 200 "
+2025-03-23 16:42:32,064 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'GET']>
+2025-03-23 16:42:32,065 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-03-23 16:42:32,066 - httpcore.http11 - DEBUG - response_closed.started
+2025-03-23 16:42:32,066 - httpcore.http11 - DEBUG - response_closed.complete
+2025-03-23 16:42:32,067 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'GET']>
+2025-03-23 16:42:32,069 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-03-23 16:42:32,070 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'GET']>
+2025-03-23 16:42:32,071 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-03-23 16:42:32,072 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'GET']>
+2025-03-23 16:42:32,104 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'', [(b'Cache-Control', b'no-cache, no-store, must-revalidate'), (b'Pragma', b'no-cache'), (b'Expires', b'0'), (b'X-Content-Type-Options', b'nosniff'), (b'X-XSS-Protection', b'1; mode=block'), (b'X-Frame-Options', b'DENY'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Date', b'Sun, 23 Mar 2025 11:12:31 GMT'), (b'Keep-Alive', b'timeout=60'), (b'Connection', b'keep-alive')])
+2025-03-23 16:42:32,106 - httpx - INFO - HTTP Request: GET http://localhost:8084/api/data/quiz-answers "HTTP/1.1 200 "
+2025-03-23 16:42:32,107 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'GET']>
+2025-03-23 16:42:32,108 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-03-23 16:42:32,109 - httpcore.http11 - DEBUG - response_closed.started
+2025-03-23 16:42:32,109 - httpcore.http11 - DEBUG - response_closed.complete
+2025-03-23 16:42:32,141 - httpcore.connection - DEBUG - close.started
+2025-03-23 16:42:32,141 - httpcore.connection - DEBUG - close.complete
+2025-03-23 16:42:32,143 - learning_assessment_server - INFO - Successfully fetched user data
+2025-03-23 16:42:32,143 - learning_assessment_server - DEBUG - Quiz Analysis: {'topic_scores': {'general': 100.0, 'problem_solving': 0.0, 'learning_style': 50.0, 'logical_reasoning': 100.0, 'mathematical': 100.0, 'motivation': 100.0}, 'overall_score': 70.0, 'weak_areas': ['problem_solving', 'learning_style'], 'strengths': ['general', 'logical_reasoning', 'mathematical', 'motivation'], 'total_questions_answered': 10, 'question_distribution': {'general': 1, 'problem_solving': 2, 'learning_style': 2, 'logical_reasoning': 2, 'mathematical': 2, 'motivation': 1}}
+2025-03-23 16:42:32,172 - httpcore.connection - DEBUG - close.started
+2025-03-23 16:42:32,174 - httpcore.connection - DEBUG - close.complete
+2025-03-23 16:42:32,174 - httpcore.connection - DEBUG - connect_tcp.started host='127.0.0.1' port=11434 local_address=None timeout=None socket_options=None
+2025-03-23 16:42:32,176 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001F99FA54F50>
+2025-03-23 16:42:32,176 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-03-23 16:42:32,177 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-03-23 16:42:32,177 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-03-23 16:42:32,178 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-03-23 16:42:32,178 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-03-23 16:42:44,102 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Sun, 23 Mar 2025 11:12:44 GMT'), (b'Content-Length', b'1057')])
+2025-03-23 16:42:44,103 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-03-23 16:42:44,103 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-03-23 16:42:44,104 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-03-23 16:42:44,104 - httpcore.http11 - DEBUG - response_closed.started
+2025-03-23 16:42:44,105 - httpcore.http11 - DEBUG - response_closed.complete
+2025-03-23 16:42:44,110 - learning_assessment_server - INFO - Successfully generated recommendations
+2025-03-23 16:42:44,111 - learning_assessment_server - DEBUG - Recommendations: {'recommendations': [{'id': None, 'title': 'Career Advancement through Design Thinking', 'description': 'This course focuses on applying design thinking principles to solve real-world problems in the field of design, enabling students to advance their careers while developing a strong foundation in problem-solving and learning style adaptation.', 'confidence_score': 85.0}, {'id': None, 'title': 'Advanced Academic Writing in Design', 'description': 'This course helps students improve their writing skills by providing guidance on structuring academic papers and engaging with design-related topics, focusing on logical reasoning and mathematical accuracy to enhance their overall academic performance.', 'confidence_score': 90.0}], 'user_id': 12345}
+2025-03-23 16:42:44,131 - learning_assessment_server - INFO - Successfully stored recommendations
+2025-03-23 16:42:44,132 - learning_assessment_server - INFO - Successfully completed course suggestion process
+2025-03-23 16:44:38,381 - learning_assessment_server - INFO - Starting course suggestion for user_id: 1
+2025-03-23 16:44:38,665 - httpcore.connection - DEBUG - connect_tcp.started host='localhost' port=8084 local_address=None timeout=5.0 socket_options=None
+2025-03-23 16:44:38,671 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x000001F99FA346B0>
+2025-03-23 16:44:38,671 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'GET']>
+2025-03-23 16:44:38,672 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-03-23 16:44:38,672 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'GET']>
+2025-03-23 16:44:38,672 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-03-23 16:44:38,672 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'GET']>
+2025-03-23 16:44:38,696 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'', [(b'Cache-Control', b'no-cache, no-store, must-revalidate'), (b'Pragma', b'no-cache'), (b'Expires', b'0'), (b'X-Content-Type-Options', b'nosniff'), (b'X-XSS-Protection', b'1; mode=block'), (b'X-Frame-Options', b'DENY'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Date', b'Sun, 23 Mar 2025 11:14:38 GMT'), (b'Keep-Alive', b'timeout=60'), (b'Connection', b'keep-alive')])
+2025-03-23 16:44:38,697 - httpx - INFO - HTTP Request: GET http://localhost:8084/api/data/survey-responses "HTTP/1.1 200 "
+2025-03-23 16:44:38,698 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'GET']>
+2025-03-23 16:44:38,698 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-03-23 16:44:38,699 - httpcore.http11 - DEBUG - response_closed.started
+2025-03-23 16:44:38,699 - httpcore.http11 - DEBUG - response_closed.complete
+2025-03-23 16:44:38,700 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'GET']>
+2025-03-23 16:44:38,700 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-03-23 16:44:38,700 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'GET']>
+2025-03-23 16:44:38,700 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-03-23 16:44:38,700 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'GET']>
+2025-03-23 16:44:38,712 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'', [(b'Cache-Control', b'no-cache, no-store, must-revalidate'), (b'Pragma', b'no-cache'), (b'Expires', b'0'), (b'X-Content-Type-Options', b'nosniff'), (b'X-XSS-Protection', b'1; mode=block'), (b'X-Frame-Options', b'DENY'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Date', b'Sun, 23 Mar 2025 11:14:38 GMT'), (b'Keep-Alive', b'timeout=60'), (b'Connection', b'keep-alive')])
+2025-03-23 16:44:38,713 - httpx - INFO - HTTP Request: GET http://localhost:8084/api/data/quiz-answers "HTTP/1.1 200 "
+2025-03-23 16:44:38,713 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'GET']>
+2025-03-23 16:44:38,714 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-03-23 16:44:38,714 - httpcore.http11 - DEBUG - response_closed.started
+2025-03-23 16:44:38,714 - httpcore.http11 - DEBUG - response_closed.complete
+2025-03-23 16:44:38,725 - httpcore.connection - DEBUG - close.started
+2025-03-23 16:44:38,726 - httpcore.connection - DEBUG - close.complete
+2025-03-23 16:44:38,727 - learning_assessment_server - INFO - Successfully fetched user data
+2025-03-23 16:44:38,727 - learning_assessment_server - DEBUG - Quiz Analysis: {'topic_scores': {'general': 100.0, 'problem_solving': 0.0, 'learning_style': 50.0, 'logical_reasoning': 100.0, 'mathematical': 100.0, 'motivation': 100.0}, 'overall_score': 70.0, 'weak_areas': ['problem_solving', 'learning_style'], 'strengths': ['general', 'logical_reasoning', 'mathematical', 'motivation'], 'total_questions_answered': 10, 'question_distribution': {'general': 1, 'problem_solving': 2, 'learning_style': 2, 'logical_reasoning': 2, 'mathematical': 2, 'motivation': 1}}
+2025-03-23 16:44:38,729 - httpcore.connection - DEBUG - close.started
+2025-03-23 16:44:38,729 - httpcore.connection - DEBUG - close.complete
+2025-03-23 16:44:38,729 - httpcore.connection - DEBUG - connect_tcp.started host='127.0.0.1' port=11434 local_address=None timeout=None socket_options=None
+2025-03-23 16:44:38,731 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001F99F9A4560>
+2025-03-23 16:44:38,731 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-03-23 16:44:38,732 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-03-23 16:44:38,732 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-03-23 16:44:38,732 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-03-23 16:44:38,732 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-03-23 16:44:41,141 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Sun, 23 Mar 2025 11:14:41 GMT'), (b'Content-Length', b'832')])
+2025-03-23 16:44:41,142 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-03-23 16:44:41,142 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-03-23 16:44:41,142 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-03-23 16:44:41,142 - httpcore.http11 - DEBUG - response_closed.started
+2025-03-23 16:44:41,142 - httpcore.http11 - DEBUG - response_closed.complete
+2025-03-23 16:44:41,143 - learning_assessment_server - INFO - Successfully generated recommendations
+2025-03-23 16:44:41,143 - learning_assessment_server - DEBUG - Recommendations: {'recommendations': [{'id': 1, 'title': 'Design Thinking Fundamentals', 'description': 'Focus on design thinking principles and practices.', 'confidence_score': 80.0}, {'id': 2, 'title': 'Math for Designers', 'description': 'Master mathematical concepts relevant to design.', 'confidence_score': 90.0}, {'id': 3, 'title': 'Logical Reasoning for Design Students', 'description': 'Improve logical reasoning skills for problem-solving in design.', 'confidence_score': 85.0}], 'user_id': 1}
+2025-03-23 16:44:41,154 - learning_assessment_server - INFO - Successfully stored recommendations
+2025-03-23 16:44:41,155 - learning_assessment_server - INFO - Successfully completed course suggestion process
+2025-03-23 16:45:06,389 - httpcore.connection - DEBUG - close.started
+2025-03-23 16:45:06,390 - httpcore.connection - DEBUG - close.complete
+2025-03-23 16:45:06,391 - httpcore.connection - DEBUG - connect_tcp.started host='127.0.0.1' port=11434 local_address=None timeout=None socket_options=None
+2025-03-23 16:45:06,391 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001F99FA34380>
+2025-03-23 16:45:06,392 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-03-23 16:45:06,392 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-03-23 16:45:06,392 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-03-23 16:45:06,393 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-03-23 16:45:06,393 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-03-23 16:45:14,919 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Sun, 23 Mar 2025 11:15:14 GMT'), (b'Transfer-Encoding', b'chunked')])
+2025-03-23 16:45:14,920 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-03-23 16:45:14,920 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-03-23 16:45:14,920 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-03-23 16:45:14,922 - httpcore.http11 - DEBUG - response_closed.started
+2025-03-23 16:45:14,922 - httpcore.http11 - DEBUG - response_closed.complete
+2025-03-23 16:45:14,954 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-03-23 16:45:14,954 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-03-23 16:45:14,955 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-03-23 16:45:14,956 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-03-23 16:45:14,956 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-03-23 16:49:06,010 - learning_assessment_server - INFO - Running startup initialization...
+2025-03-23 16:49:06,010 - learning_assessment_server - INFO - Initializing database...
+2025-03-23 16:49:06,012 - learning_assessment_server - INFO - Database initialization completed successfully
+2025-03-23 16:49:06,012 - learning_assessment_server - INFO - Database schema verified successfully
+2025-03-23 16:49:22,639 - httpcore.connection - DEBUG - connect_tcp.started host='127.0.0.1' port=11434 local_address=None timeout=None socket_options=None
+2025-03-23 16:49:22,643 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001F7A5F87590>
+2025-03-23 16:49:22,643 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-03-23 16:49:22,644 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-03-23 16:49:22,644 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-03-23 16:49:22,645 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-03-23 16:49:22,645 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-03-23 16:52:17,264 - learning_assessment_server - INFO - Running startup initialization...
+2025-03-23 16:52:17,265 - learning_assessment_server - INFO - Initializing database...
+2025-03-23 16:52:17,265 - learning_assessment_server - INFO - Database initialization completed successfully
+2025-03-23 16:52:17,267 - learning_assessment_server - INFO - Database schema verified successfully
+2025-03-23 16:52:32,129 - httpcore.connection - DEBUG - connect_tcp.started host='127.0.0.1' port=11434 local_address=None timeout=None socket_options=None
+2025-03-23 16:52:32,135 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001E38BEF5820>
+2025-03-23 16:52:32,136 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-03-23 16:52:32,136 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-03-23 16:52:32,137 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-03-23 16:52:32,137 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-03-23 16:52:32,137 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-03-23 16:53:06,895 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Sun, 23 Mar 2025 11:23:06 GMT'), (b'Transfer-Encoding', b'chunked')])
+2025-03-23 16:53:06,896 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-03-23 16:53:06,896 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-03-23 16:53:06,896 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-03-23 16:53:06,897 - httpcore.http11 - DEBUG - response_closed.started
+2025-03-23 16:53:06,897 - httpcore.http11 - DEBUG - response_closed.complete
+2025-03-23 16:53:06,940 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-03-23 16:53:06,941 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-03-23 16:53:06,941 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-03-23 16:53:06,943 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-03-23 16:53:06,943 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-03-23 17:00:19,068 - learning_assessment_server - INFO - Running startup initialization...
+2025-03-23 17:00:19,068 - learning_assessment_server - INFO - Initializing database...
+2025-03-23 17:00:19,070 - learning_assessment_server - INFO - Database initialization completed successfully
+2025-03-23 17:00:19,071 - learning_assessment_server - INFO - Database schema verified successfully
+2025-03-23 17:00:30,176 - httpcore.connection - DEBUG - connect_tcp.started host='127.0.0.1' port=11434 local_address=None timeout=None socket_options=None
+2025-03-23 17:00:30,181 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000213D60E59A0>
+2025-03-23 17:00:30,182 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-03-23 17:00:30,184 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-03-23 17:00:30,185 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-03-23 17:00:30,186 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-03-23 17:00:30,186 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-03-23 17:00:40,735 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Sun, 23 Mar 2025 11:30:40 GMT'), (b'Transfer-Encoding', b'chunked')])
+2025-03-23 17:00:40,736 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-03-23 17:00:40,736 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-03-23 17:00:40,737 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-03-23 17:00:40,737 - httpcore.http11 - DEBUG - response_closed.started
+2025-03-23 17:00:40,737 - httpcore.http11 - DEBUG - response_closed.complete
+2025-03-23 17:01:10,402 - httpcore.connection - DEBUG - close.started
+2025-03-23 17:01:10,402 - httpcore.connection - DEBUG - close.complete
+2025-03-23 17:01:10,403 - httpcore.connection - DEBUG - connect_tcp.started host='127.0.0.1' port=11434 local_address=None timeout=None socket_options=None
+2025-03-23 17:01:10,404 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000213D61347D0>
+2025-03-23 17:01:10,404 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-03-23 17:01:10,405 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-03-23 17:01:10,405 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-03-23 17:01:10,406 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-03-23 17:01:10,406 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-03-23 17:01:25,799 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Sun, 23 Mar 2025 11:31:25 GMT'), (b'Transfer-Encoding', b'chunked')])
+2025-03-23 17:01:25,800 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-03-23 17:01:25,800 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-03-23 17:01:25,801 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-03-23 17:01:25,801 - httpcore.http11 - DEBUG - response_closed.started
+2025-03-23 17:01:25,801 - httpcore.http11 - DEBUG - response_closed.complete
+2025-03-23 17:01:25,826 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-03-23 17:01:25,827 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-03-23 17:01:25,827 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-03-23 17:01:25,828 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-03-23 17:01:25,828 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-03-23 17:01:29,760 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Sun, 23 Mar 2025 11:31:29 GMT'), (b'Content-Length', b'1122')])
+2025-03-23 17:01:29,761 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-03-23 17:01:29,762 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-03-23 17:01:29,762 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-03-23 17:01:29,762 - httpcore.http11 - DEBUG - response_closed.started
+2025-03-23 17:01:29,763 - httpcore.http11 - DEBUG - response_closed.complete
+2025-04-09 11:22:51,516 - learning_assessment_server - INFO - Running startup initialization...
+2025-04-09 11:22:51,517 - learning_assessment_server - INFO - Initializing database...
+2025-04-09 11:22:51,520 - learning_assessment_server - INFO - Database initialization completed successfully
+2025-04-09 11:22:51,521 - learning_assessment_server - INFO - Database schema verified successfully
+2025-04-09 11:23:06,417 - learning_assessment_server - INFO - Starting course suggestion for user_id: 2
+2025-04-09 11:23:06,703 - httpcore.connection - DEBUG - connect_tcp.started host='localhost' port=8084 local_address=None timeout=5.0 socket_options=None
+2025-04-09 11:23:06,713 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x000001BF8D3B8B30>
+2025-04-09 11:23:06,714 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'GET']>
+2025-04-09 11:23:06,715 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-04-09 11:23:06,715 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'GET']>
+2025-04-09 11:23:06,716 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-04-09 11:23:06,716 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'GET']>
+2025-04-09 11:23:06,773 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'', [(b'Cache-Control', b'no-cache, no-store, must-revalidate'), (b'Pragma', b'no-cache'), (b'Expires', b'0'), (b'X-Content-Type-Options', b'nosniff'), (b'X-XSS-Protection', b'1; mode=block'), (b'X-Frame-Options', b'DENY'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Date', b'Wed, 09 Apr 2025 05:53:06 GMT'), (b'Keep-Alive', b'timeout=60'), (b'Connection', b'keep-alive')])
+2025-04-09 11:23:06,774 - httpx - INFO - HTTP Request: GET http://localhost:8084/api/data/survey-responses "HTTP/1.1 200 "
+2025-04-09 11:23:06,775 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'GET']>
+2025-04-09 11:23:06,775 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-04-09 11:23:06,776 - httpcore.http11 - DEBUG - response_closed.started
+2025-04-09 11:23:06,776 - httpcore.http11 - DEBUG - response_closed.complete
+2025-04-09 11:23:06,778 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'GET']>
+2025-04-09 11:23:06,779 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-04-09 11:23:06,780 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'GET']>
+2025-04-09 11:23:06,780 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-04-09 11:23:06,781 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'GET']>
+2025-04-09 11:23:06,824 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'', [(b'Cache-Control', b'no-cache, no-store, must-revalidate'), (b'Pragma', b'no-cache'), (b'Expires', b'0'), (b'X-Content-Type-Options', b'nosniff'), (b'X-XSS-Protection', b'1; mode=block'), (b'X-Frame-Options', b'DENY'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Date', b'Wed, 09 Apr 2025 05:53:06 GMT'), (b'Keep-Alive', b'timeout=60'), (b'Connection', b'keep-alive')])
+2025-04-09 11:23:06,825 - httpx - INFO - HTTP Request: GET http://localhost:8084/api/data/quiz-answers "HTTP/1.1 200 "
+2025-04-09 11:23:06,825 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'GET']>
+2025-04-09 11:23:06,825 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-04-09 11:23:06,826 - httpcore.http11 - DEBUG - response_closed.started
+2025-04-09 11:23:06,826 - httpcore.http11 - DEBUG - response_closed.complete
+2025-04-09 11:23:06,838 - httpcore.connection - DEBUG - close.started
+2025-04-09 11:23:06,839 - httpcore.connection - DEBUG - close.complete
+2025-04-09 11:23:06,839 - learning_assessment_server - INFO - Successfully fetched user data
+2025-04-09 11:23:06,840 - learning_assessment_server - DEBUG - Quiz Analysis: {'topic_scores': {'general': 100.0, 'problem_solving': 0.0, 'learning_style': 50.0, 'logical_reasoning': 0.0, 'mathematical': 0.0, 'motivation': 0.0}, 'overall_score': 20.0, 'weak_areas': ['problem_solving', 'learning_style', 'logical_reasoning', 'mathematical', 'motivation'], 'strengths': ['general'], 'total_questions_answered': 10, 'question_distribution': {'general': 1, 'problem_solving': 2, 'learning_style': 2, 'logical_reasoning': 2, 'mathematical': 2, 'motivation': 1}}
+2025-04-09 11:23:06,851 - httpcore.connection - DEBUG - connect_tcp.started host='127.0.0.1' port=11434 local_address=None timeout=None socket_options=None
+2025-04-09 11:23:06,858 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001BF8D3BB170>
+2025-04-09 11:23:06,858 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-04-09 11:23:06,859 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-04-09 11:23:06,860 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-04-09 11:23:06,861 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-04-09 11:23:06,861 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-04-09 11:23:23,310 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Wed, 09 Apr 2025 05:53:23 GMT'), (b'Content-Length', b'1099')])
+2025-04-09 11:23:23,310 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-09 11:23:23,311 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-04-09 11:23:23,312 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-04-09 11:23:23,312 - httpcore.http11 - DEBUG - response_closed.started
+2025-04-09 11:23:23,312 - httpcore.http11 - DEBUG - response_closed.complete
+2025-04-09 11:23:23,315 - learning_assessment_server - INFO - Successfully generated recommendations
+2025-04-09 11:23:23,316 - learning_assessment_server - DEBUG - Recommendations: {'recommendations': [{'id': None, 'title': 'Design Thinking Fundamentals', 'description': 'An introduction to design thinking, focusing on empathy, ideation, prototyping, and testing.', 'confidence_score': 60.0}, {'id': None, 'title': 'Entrepreneurship for Designers', 'description': 'Teaching designers the skills needed to turn their designs into successful businesses.', 'confidence_score': 40.0}, {'id': None, 'title': 'Problem-Solving Strategies', 'description': 'Practical strategies for overcoming common obstacles in design and problem-solving.', 'confidence_score': 30.0}, {'id': None, 'title': 'Product Design and Development', 'description': 'A comprehensive course covering the entire product development process, from conception to launch.', 'confidence_score': 20.0}], 'user_id': 12345}
+2025-04-09 11:23:23,338 - learning_assessment_server - INFO - Successfully stored recommendations
+2025-04-09 11:23:23,339 - learning_assessment_server - INFO - Successfully completed course suggestion process
+2025-04-09 11:23:23,343 - learning_assessment_server - INFO - Starting course suggestion for user_id: 2
+2025-04-09 11:23:23,631 - httpcore.connection - DEBUG - connect_tcp.started host='localhost' port=8084 local_address=None timeout=5.0 socket_options=None
+2025-04-09 11:23:23,635 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x000001BF8D3B84A0>
+2025-04-09 11:23:23,636 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'GET']>
+2025-04-09 11:23:23,650 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-04-09 11:23:23,652 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'GET']>
+2025-04-09 11:23:23,653 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-04-09 11:23:23,656 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'GET']>
+2025-04-09 11:23:23,699 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'', [(b'Cache-Control', b'no-cache, no-store, must-revalidate'), (b'Pragma', b'no-cache'), (b'Expires', b'0'), (b'X-Content-Type-Options', b'nosniff'), (b'X-XSS-Protection', b'1; mode=block'), (b'X-Frame-Options', b'DENY'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Date', b'Wed, 09 Apr 2025 05:53:23 GMT'), (b'Keep-Alive', b'timeout=60'), (b'Connection', b'keep-alive')])
+2025-04-09 11:23:23,700 - httpx - INFO - HTTP Request: GET http://localhost:8084/api/data/survey-responses "HTTP/1.1 200 "
+2025-04-09 11:23:23,700 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'GET']>
+2025-04-09 11:23:23,701 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-04-09 11:23:23,701 - httpcore.http11 - DEBUG - response_closed.started
+2025-04-09 11:23:23,701 - httpcore.http11 - DEBUG - response_closed.complete
+2025-04-09 11:23:23,702 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'GET']>
+2025-04-09 11:23:23,702 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-04-09 11:23:23,702 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'GET']>
+2025-04-09 11:23:23,703 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-04-09 11:23:23,703 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'GET']>
+2025-04-09 11:23:23,744 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'', [(b'Cache-Control', b'no-cache, no-store, must-revalidate'), (b'Pragma', b'no-cache'), (b'Expires', b'0'), (b'X-Content-Type-Options', b'nosniff'), (b'X-XSS-Protection', b'1; mode=block'), (b'X-Frame-Options', b'DENY'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Date', b'Wed, 09 Apr 2025 05:53:23 GMT'), (b'Keep-Alive', b'timeout=60'), (b'Connection', b'keep-alive')])
+2025-04-09 11:23:23,746 - httpx - INFO - HTTP Request: GET http://localhost:8084/api/data/quiz-answers "HTTP/1.1 200 "
+2025-04-09 11:23:23,747 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'GET']>
+2025-04-09 11:23:23,747 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-04-09 11:23:23,748 - httpcore.http11 - DEBUG - response_closed.started
+2025-04-09 11:23:23,748 - httpcore.http11 - DEBUG - response_closed.complete
+2025-04-09 11:23:23,763 - httpcore.connection - DEBUG - close.started
+2025-04-09 11:23:23,764 - httpcore.connection - DEBUG - close.complete
+2025-04-09 11:23:23,765 - learning_assessment_server - INFO - Successfully fetched user data
+2025-04-09 11:23:23,766 - learning_assessment_server - DEBUG - Quiz Analysis: {'topic_scores': {'general': 100.0, 'problem_solving': 0.0, 'learning_style': 50.0, 'logical_reasoning': 0.0, 'mathematical': 0.0, 'motivation': 0.0}, 'overall_score': 20.0, 'weak_areas': ['problem_solving', 'learning_style', 'logical_reasoning', 'mathematical', 'motivation'], 'strengths': ['general'], 'total_questions_answered': 10, 'question_distribution': {'general': 1, 'problem_solving': 2, 'learning_style': 2, 'logical_reasoning': 2, 'mathematical': 2, 'motivation': 1}}
+2025-04-09 11:23:23,768 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-04-09 11:23:23,768 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-04-09 11:23:23,769 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-04-09 11:23:23,769 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-04-09 11:23:23,769 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-04-09 11:23:29,578 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Wed, 09 Apr 2025 05:53:29 GMT'), (b'Content-Length', b'926')])
+2025-04-09 11:23:29,579 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-09 11:23:29,580 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-04-09 11:23:29,581 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-04-09 11:23:29,581 - httpcore.http11 - DEBUG - response_closed.started
+2025-04-09 11:23:29,582 - httpcore.http11 - DEBUG - response_closed.complete
+2025-04-09 11:23:29,582 - learning_assessment_server - INFO - Successfully generated recommendations
+2025-04-09 11:23:29,582 - learning_assessment_server - DEBUG - Recommendations: {'recommendations': [{'id': 1, 'title': 'Design Thinking for Entrepreneurs', 'description': 'Learn design thinking principles and apply them to real-world business challenges.', 'confidence_score': 85.0}, {'id': 2, 'title': 'Entrepreneurship Fundamentals', 'description': 'Gain a solid understanding of entrepreneurship basics, including business planning, marketing, and finance.', 'confidence_score': 90.0}, {'id': 3, 'title': 'Design for Business', 'description': 'Explore how design can be used to drive business innovation and growth.', 'confidence_score': 80.0}], 'user_id': 12345}
+2025-04-09 11:23:29,612 - learning_assessment_server - INFO - Successfully stored recommendations
+2025-04-09 11:23:29,613 - learning_assessment_server - INFO - Successfully completed course suggestion process
+2025-04-09 11:28:12,906 - learning_assessment_server - INFO - Starting course suggestion for user_id: 1
+2025-04-09 11:28:13,201 - httpcore.connection - DEBUG - connect_tcp.started host='localhost' port=8084 local_address=None timeout=5.0 socket_options=None
+2025-04-09 11:28:13,212 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x000001BF8D374C20>
+2025-04-09 11:28:13,213 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'GET']>
+2025-04-09 11:28:13,214 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-04-09 11:28:13,214 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'GET']>
+2025-04-09 11:28:13,214 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-04-09 11:28:13,215 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'GET']>
+2025-04-09 11:28:13,246 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'', [(b'Cache-Control', b'no-cache, no-store, must-revalidate'), (b'Pragma', b'no-cache'), (b'Expires', b'0'), (b'X-Content-Type-Options', b'nosniff'), (b'X-XSS-Protection', b'1; mode=block'), (b'X-Frame-Options', b'DENY'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Date', b'Wed, 09 Apr 2025 05:58:12 GMT'), (b'Keep-Alive', b'timeout=60'), (b'Connection', b'keep-alive')])
+2025-04-09 11:28:13,247 - httpx - INFO - HTTP Request: GET http://localhost:8084/api/data/survey-responses "HTTP/1.1 200 "
+2025-04-09 11:28:13,248 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'GET']>
+2025-04-09 11:28:13,250 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-04-09 11:28:13,252 - httpcore.http11 - DEBUG - response_closed.started
+2025-04-09 11:28:13,253 - httpcore.http11 - DEBUG - response_closed.complete
+2025-04-09 11:28:13,254 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'GET']>
+2025-04-09 11:28:13,255 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-04-09 11:28:13,256 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'GET']>
+2025-04-09 11:28:13,256 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-04-09 11:28:13,256 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'GET']>
+2025-04-09 11:28:13,299 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'', [(b'Cache-Control', b'no-cache, no-store, must-revalidate'), (b'Pragma', b'no-cache'), (b'Expires', b'0'), (b'X-Content-Type-Options', b'nosniff'), (b'X-XSS-Protection', b'1; mode=block'), (b'X-Frame-Options', b'DENY'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Date', b'Wed, 09 Apr 2025 05:58:12 GMT'), (b'Keep-Alive', b'timeout=60'), (b'Connection', b'keep-alive')])
+2025-04-09 11:28:13,301 - httpx - INFO - HTTP Request: GET http://localhost:8084/api/data/quiz-answers "HTTP/1.1 200 "
+2025-04-09 11:28:13,302 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'GET']>
+2025-04-09 11:28:13,303 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-04-09 11:28:13,304 - httpcore.http11 - DEBUG - response_closed.started
+2025-04-09 11:28:13,306 - httpcore.http11 - DEBUG - response_closed.complete
+2025-04-09 11:28:13,325 - httpcore.connection - DEBUG - close.started
+2025-04-09 11:28:13,328 - httpcore.connection - DEBUG - close.complete
+2025-04-09 11:28:13,328 - learning_assessment_server - INFO - Successfully fetched user data
+2025-04-09 11:28:13,329 - learning_assessment_server - DEBUG - Quiz Analysis: {'topic_scores': {'general': 0.0, 'problem_solving': 0.0, 'learning_style': 0.0, 'logical_reasoning': 0.0, 'mathematical': 50.0, 'motivation': 0.0}, 'overall_score': 10.0, 'weak_areas': ['general', 'problem_solving', 'learning_style', 'logical_reasoning', 'mathematical', 'motivation'], 'strengths': [], 'total_questions_answered': 10, 'question_distribution': {'general': 1, 'problem_solving': 2, 'learning_style': 2, 'logical_reasoning': 2, 'mathematical': 2, 'motivation': 1}}
+2025-04-09 11:28:13,335 - httpcore.connection - DEBUG - close.started
+2025-04-09 11:28:13,336 - httpcore.connection - DEBUG - close.complete
+2025-04-09 11:28:13,337 - httpcore.connection - DEBUG - connect_tcp.started host='127.0.0.1' port=11434 local_address=None timeout=None socket_options=None
+2025-04-09 11:28:13,339 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001BF8D3E93A0>
+2025-04-09 11:28:13,340 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-04-09 11:28:13,343 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-04-09 11:28:13,344 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-04-09 11:28:13,346 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-04-09 11:28:13,346 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-04-09 11:28:23,641 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Wed, 09 Apr 2025 05:58:23 GMT'), (b'Content-Length', b'1590')])
+2025-04-09 11:28:23,641 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-09 11:28:23,642 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-04-09 11:28:23,642 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-04-09 11:28:23,642 - httpcore.http11 - DEBUG - response_closed.started
+2025-04-09 11:28:23,642 - httpcore.http11 - DEBUG - response_closed.complete
+2025-04-09 11:28:23,643 - learning_assessment_server - INFO - Successfully generated recommendations
+2025-04-09 11:28:23,644 - learning_assessment_server - DEBUG - Recommendations: {'recommendations': [{'id': 1, 'title': 'Entrepreneurship Fundamentals', 'description': 'A comprehensive course covering the basics of entrepreneurship, including business planning, market analysis, and financial management.', 'confidence_score': 9.0}, {'id': 2, 'title': 'Marketing Strategy for Entrepreneurs', 'description': 'A course focused on developing effective marketing strategies for entrepreneurs, including brand development, product positioning, and pricing.', 'confidence_score': 8.0}, {'id': 3, 'title': 'Data-Driven Decision Making in Marketing', 'description': 'A course emphasizing the importance of data analysis in marketing decision-making, covering topics such as market research, consumer behavior, and metrics evaluation.', 'confidence_score': 7.0}, {'id': 4, 'title': 'Mathematical Modeling for Business Growth', 'description': 'A course introducing mathematical modeling techniques to help entrepreneurs analyze business growth patterns, forecast revenue, and make data-driven decisions.', 'confidence_score': 9.0}], 'user_id': 1}
+2025-04-09 11:28:23,661 - learning_assessment_server - INFO - Successfully stored recommendations
+2025-04-09 11:28:23,661 - learning_assessment_server - INFO - Successfully completed course suggestion process
+2025-04-09 12:30:12,001 - httpcore.connection - DEBUG - close.started
+2025-04-09 12:30:12,002 - httpcore.connection - DEBUG - close.complete
+2025-04-09 12:30:12,005 - httpcore.connection - DEBUG - connect_tcp.started host='127.0.0.1' port=11434 local_address=None timeout=None socket_options=None
+2025-04-09 12:30:12,012 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001BF8D3B88F0>
+2025-04-09 12:30:12,018 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-04-09 12:30:12,020 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-04-09 12:30:12,023 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-04-09 12:30:12,027 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-04-09 12:30:12,031 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-04-09 12:31:47,445 - learning_assessment_server - INFO - Running startup initialization...
+2025-04-09 12:31:47,445 - learning_assessment_server - INFO - Initializing database...
+2025-04-09 12:31:47,448 - learning_assessment_server - INFO - Database initialization completed successfully
+2025-04-09 12:31:47,449 - learning_assessment_server - INFO - Database schema verified successfully
+2025-04-09 12:31:52,045 - httpcore.connection - DEBUG - connect_tcp.started host='127.0.0.1' port=11434 local_address=None timeout=None socket_options=None
+2025-04-09 12:31:52,054 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001E4D525C980>
+2025-04-09 12:31:52,055 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-04-09 12:31:52,056 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-04-09 12:31:52,056 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-04-09 12:31:52,057 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-04-09 12:31:52,058 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-04-09 12:32:12,900 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Wed, 09 Apr 2025 07:02:12 GMT'), (b'Transfer-Encoding', b'chunked')])
+2025-04-09 12:32:12,901 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-09 12:32:12,901 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-04-09 12:32:12,901 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-04-09 12:32:12,902 - httpcore.http11 - DEBUG - response_closed.started
+2025-04-09 12:32:12,902 - httpcore.http11 - DEBUG - response_closed.complete
+2025-04-09 12:32:12,960 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-04-09 12:32:12,961 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-04-09 12:32:12,961 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-04-09 12:32:12,961 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-04-09 12:32:12,961 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-04-09 12:33:02,781 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Wed, 09 Apr 2025 07:03:02 GMT'), (b'Transfer-Encoding', b'chunked')])
+2025-04-09 12:33:02,781 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-09 12:33:02,782 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-04-09 12:33:02,782 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-04-09 12:33:02,782 - httpcore.http11 - DEBUG - response_closed.started
+2025-04-09 12:33:02,782 - httpcore.http11 - DEBUG - response_closed.complete
+2025-04-09 12:33:02,815 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-04-09 12:33:02,815 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-04-09 12:33:02,815 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-04-09 12:33:02,816 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-04-09 12:33:02,817 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-04-09 12:33:30,343 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Wed, 09 Apr 2025 07:03:30 GMT'), (b'Transfer-Encoding', b'chunked')])
+2025-04-09 12:33:30,343 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-09 12:33:30,344 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-04-09 12:33:30,344 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-04-09 12:33:30,344 - httpcore.http11 - DEBUG - response_closed.started
+2025-04-09 12:33:30,344 - httpcore.http11 - DEBUG - response_closed.complete
+2025-04-09 12:33:30,392 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-04-09 12:33:30,393 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-04-09 12:33:30,396 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-04-09 12:33:30,397 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-04-09 12:33:30,397 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-04-09 12:35:10,480 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Wed, 09 Apr 2025 07:05:10 GMT'), (b'Transfer-Encoding', b'chunked')])
+2025-04-09 12:35:10,481 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-09 12:35:10,481 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-04-09 12:35:10,482 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-04-09 12:35:10,482 - httpcore.http11 - DEBUG - response_closed.started
+2025-04-09 12:35:10,483 - httpcore.http11 - DEBUG - response_closed.complete
+2025-04-09 12:36:12,825 - httpcore.connection - DEBUG - close.started
+2025-04-09 12:36:12,826 - httpcore.connection - DEBUG - close.complete
+2025-04-09 12:36:12,826 - httpcore.connection - DEBUG - connect_tcp.started host='127.0.0.1' port=11434 local_address=None timeout=None socket_options=None
+2025-04-09 12:36:12,827 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001E4D5217DA0>
+2025-04-09 12:36:12,827 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-04-09 12:36:12,827 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-04-09 12:36:12,827 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-04-09 12:36:12,828 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-04-09 12:36:12,828 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-04-09 12:36:43,825 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Wed, 09 Apr 2025 07:06:43 GMT'), (b'Transfer-Encoding', b'chunked')])
+2025-04-09 12:36:43,825 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-09 12:36:43,826 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-04-09 12:36:43,827 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-04-09 12:36:43,827 - httpcore.http11 - DEBUG - response_closed.started
+2025-04-09 12:36:43,827 - httpcore.http11 - DEBUG - response_closed.complete
